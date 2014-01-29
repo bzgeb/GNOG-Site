@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+    <title>KO-OP Mode | Gnah!</title>
+    <meta content="authenticity_token" name="csrf-param" />
+    <meta content="tQiVCeewt5ttIjE+Yz3DkgNRfA4kahOv8KdS/nnmn04=" name="csrf-token" />
+    <meta property="og:title" content="GNAH! Puzzles" /> 
+    <meta property="og:image" content="http://kfv.ko-opmode.com/images/facebookshare.gif" /> 
+    <meta property="og:image" content="http://kfv.ko-opmode.com/images/facebookshare.png" /> 
+    <meta property="og:image" content="http://kfv.ko-opmode.com/images/facebookshare.jpg" /> 
+    <meta property="og:description" content="GNAH! is an inventive puzzle game by KO-OP Mode" /> 
+    <meta property="og:url" content="http://gnah.ko-opmode.com/">
+    <meta property="og:type" content="website">
+    <meta property="fb:admins" content="13616068" />
+    <meta property="fb:admins" content="538875669" />
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+      <![endif]-->
+
+      <link rel="stylesheet" type="text/css" href="/fonts/MyFontsWebfontsKit.css">
+      <link href='http://fonts.googleapis.com/css?family=Advent+Pro:200,400,700' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+      <link href="/stylesheets/normalize.css" media="all" rel="stylesheet" type="text/css" />
+      <link href="/stylesheets/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+      <link href="/stylesheets/bootstrap-responsive.min.css" media="all" rel="stylesheet" type="text/css" />
+      <link href="/stylesheets/common.css" media="all" rel="stylesheet" type="text/css" />
+      <link href="/stylesheets/kfv.css" media="all" rel="stylesheet" type="text/css" />
+
+      <!-- For third-generation iPad with high-resolution Retina display: -->
+      <!-- Size should be 144 x 144 pixels -->
+
+      <!-- For iPhone with high-resolution Retina display: -->
+      <!-- Size should be 114 x 114 pixels -->
+
+      <!-- For first- and second-generation iPad: -->
+      <!-- Size should be 72 x 72 pixels -->
+
+      <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+      <!-- Size should be 57 x 57 pixels -->
+
+      <!-- For all other devices -->
+      <!-- Size should be 32 x 32 pixels -->
+      <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+
+
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- KFV -->
+    <div class="container">
+      <!-- Web Player -->  
+      <!--
+      <div class="row top-small-spacer">
+        <div class="span12">
+          <div id="unityPlayer">
+            <div class="missing center">
+              <p>Hey! You need to install the Unity Web Player to play Kung Fu Volleyball</p>
+              <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
+                INSTALL UNITY WEB PLAYER!
+                <!-- <img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" /> -->
+      
+      <!--
+              </a>
+            </div>
+            <div class="broken center">
+              <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now! Restart your browser after install.">
+                INSTALL UNITY WEB PLAYER!
+                <!-- <img alt="Unity Web Player. Install now! Restart your browser after install." src="http://webplayer.unity3d.com/installation/getunityrestart.png" width="193" height="63" /> -->
+                
+
+              <!--
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      -->
+      <div class="ro top-small-spacer">
+        <div class="span12" align="center">
+          <iframe width="100%" height="528px" src="http://www.youtube.com/embed/I7m3aASq8T0?showinfo=0&controls=1&rel=0"  frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+
+        </div>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="row top-xsmall-spacer bottom-small-spacer">
+        <div class="span3 offset1">
+          <img alt="Two controllers required" src="images/controller@2x.png" width="163" height="59" /> 
+        </div>
+        <div class="span2">
+          <a href="http://www.ko-opmode.com"><img alt="KO-OP Mode" src="images/ko-oplogo@2x.png" width="100" height="59" /></a>
+        </div>
+        <div class="span3">
+          <a href="http://marsmodule.bandcamp.com/"><img alt="Mars Module" src="images/marsmodulelogo@2x.png" width="206" height="59" /></a>
+        </div>
+        <div class="span3" style="margin-top:22px">
+            <a href="http://narwolf.tumblr.com" class="camo-link">art by G.P. Lackey</a>
+        </div>
+      </div> 
+
+      <div align="center" style="margin-left:-561px; left:50%; width:1121px; height:315px; position:absolute; z-index:-1; background-image:url('images/flametogether.png')">
+      </div>
+      <div class="row bottom-small-spacer top-small-spacer">
+        <div align="center" class="span12 bottom-small-spacer" style="font-size:40px">
+          <a href="http://gum.co/HVHp" class="camo-link">Download</a>
+        </div>
+        <div align="center" class="span12 bottom-small-spacer">
+          <a href="http://gum.co/HVHp" class="gumroad-button">Get this thing!</a><script type="text/javascript" src="https://gumroad.com/js/gumroad-button.js"></script>
+        </div>
+        <div align="center" class="span12 bottom-xsmall-spacer" style="font-size:20px">
+          PC/Mac
+        </div>
+        <div align="center" class="span12 bottom-small-spacer" style="font-size:20px">
+          100% DRM Free
+        </div>
+        <div align="center" class="span12" style="font-size:24px;">
+          And get the soundtrack + updates to the game
+        </div>
+        <div align="center" class="span12">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://kfv.ko-opmode.com/" data-text="Challenge a friend to Kung Fu Volleyball" data-via="koopmode" data-count="none">Tweet</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          <div class="fb-like" data-href="http://www.ko-opmode.com/kfv" data-send="false" data-width="400" data-show-faces="false" data-colorscheme="dark" style="padding-top:10px"></div> 
+        </div>
+      </div>
+
+      <!-- Title -->
+      <div class="row bottom-small-spacer top-xlarge-spacer">
+          <div class="span12">
+              <img alt="KFV Logo" src="/images/KFV Logo@2x.png" width="960" height="100" />
+          </div>
+      </div>
+
+      <!-- Description -->
+      <div align="center" class="row bottom-med-spacer">
+          <div class="span12">
+              <p>KFV is a competitive over the top sports game to the death</p>
+              <p>It was made in 3 days and we'd love to have your feedback so <a href="mailto:bronson@ko-opmode.com">send us an email</a></p>
+          </div>
+      </div>
+
+      <!-- Mailing List -->
+      <div class="row signup top-small-spacer" style="margin-bottom:32px">
+          <div class="span3">
+            <div class="large-text" style="position:relative; top:6px; letter-spacing:4px;">Want more?</div>
+          </div>
+          <div class="span5">
+            <form accept-charset="UTF-8" action="mailing_list/subscribe" class="mail-form" data-remote="true" id="mail-form" method="post">
+              <input class="textfield" id="email" name="email" placeholder="Email" type="text" style="position:relative; top:4px"/>
+              <input class="subscribe" name="commit" type="submit" value="Subscribe" style="position:relative; top:-2px" />
+              <div style="height:35px" id="response" style="letter-spacing:2px; font-size:20px">
+
+              </div>
+            </form>
+          </div>
+          <div class="span4">
+            <div class="small-text" style="position:relative; top:-2px">Get music, art, updates, and other goodies by joining our mailing list</div>
+          </div>
+        </div>
+
+        <div class="row">
+          <p>Last Updated: 10/09/2013 Build: 0.4v</p>
+          <p>-Tested with wired Xbox360 Controllers</p>
+          </br></br>
+          <p>Xbox Controller:</p>
+          <p>-Analog stick to move.  X to charge your kick, release to kick. A to dash. Right Bumper to Teleport</p>
+          </br></br>
+          <p>Keyboard:</p>
+          <p>-Player One: WASD + V to charge your kick, release to kick. C to dash. F to Teleport.</p>
+          <p>-Player Two: Arrows Keys + ' to charge your kick, release to kick. ; to dash. / to Teleport.</p>
+          <p>Controls not optimized for keyboard. Sorry!</p>
+        </div>
+    </div>
+
+    <div style="width:100%; height:321px; background-image:url('images/bottom.png');">
+    </div>
+
+    <!-- Javascripts
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/javascripts/jquery.js?body=1" type="text/javascript"></script>
+    <script src="/javascripts/jquery_ujs.js?body=1" type="text/javascript"></script>
+    <script src="/javascripts/bootstrap.min.js?body=1" type="text/javascript"></script>
+    <script src="/javascripts/bootstrap.js?body=1" type="text/javascript"></script>
+    <script src="/javascripts/debug.js?body=1" type="text/javascript"></script>
+    <script src="/javascripts/retina.js?body=1" type="text/javascript"></script>
+    <script src="/javascripts/static_pages.js?body=1" type="text/javascript"></script>
+    <script src="/javascripts/application.js?body=1" type="text/javascript"></script>
+    <script src="/javascripts/mailing_list.js?body=1" type="text/javascript"></script>
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30393443-1']);
+    _gaq.push(['_setDomainName', 'ko-opmode.com']);
+    _gaq.push(['_trackPageview']);
+    
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+
+    </body>
+</html>

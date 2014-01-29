@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GNAH!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="GNAH!" /> 
+    <meta property="og:site_name" content="GNAH!"/>
+    <meta property="og:image" content="http://gnah.ko-opmode.com/images/facebookshare.jpg" /> 
+    <meta property="og:image" content="http://gnah.ko-opmode.com/images/facebookshare.png" /> 
+    <meta property="og:image" content="http://gnah.ko-opmode.com/images/facebookshare.gif" /> 
+    <meta property="og:description" content="Gnah! is a mind bending adventure game about exploring and escaping giant heads " /> 
+    <meta property="og:url" content="http://gnah.ko-opmode.com/">
+    <meta property="og:type" content="website">
+    <meta property="fb:admins" content="13616068" />
+    <meta property="fb:admins" content="538875669" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@koopmode">
+    <meta name="twitter:creator" content="@monsieureureka">
+    <meta name="twitter:title" content="Gnah! Mind Melting Puzzles Inside of Heads">
+    <meta name="twitter:description" content="Gnah! is a mind bending adventure game about exploring and escaping giant heads">
+    <meta name="twitter:image:src" content="http://gnah.ko-opmode.com/images/facebookshare.jpg">
+    <!-- Bootstrap -->
+    <link href="/stylesheets/normalize.css?body=1" media="all" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/bootstrap.min.css?body=1" media="all" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/common.css?body=1" media="all" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/gnah.css?body=1" media="all" rel="stylesheet" type="text/css" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<div id="fb-root"></div>
+		  <script>(function(d, s, id) {
+	  	var js, fjs = d.getElementsByTagName(s)[0];
+	  	if (d.getElementById(id)) return;
+	  	js = d.createElement(s); js.id = id;
+	  	js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+	  	fjs.parentNode.insertBefore(js, fjs);
+		  }(document, 'script', 'facebook-jssdk'));
+		  </script>
+
+<!-- Main Content --> 
+<div class="header">
+ <img src="/images/circleBg-6.png" class="weird img-responsive visible-lg" id="rotate">
+ <img src="/images/circleBg-6.png" class="weird img-responsive visible-md">
+     <div class="container ">
+     	<div class="row">
+    <!--
+    <div style="position: relative; left: 0; top: 0;" align="center">
+        <img src="/images/circleBg-2.png" class="img-responsive" align="center" id="" style="position: relative; top: 0; left: 0;"/>
+        <img src="/images/gnahlogoYellow.png" width="600px" align="center" id="rotate" class="img-responsive" style="position: absolute; top: 30px; left: 70px;"/>
+    </div>
+    -->
+     		<div class="col-md-12 top-small-spacer bottom-large-spacer" align="center">
+        <!-- THE LOGO -->
+         
+          <img src="/images/gnahlogoYellow.png" width="500px" class="top-large-spacer logo  img-responsive bottom-small-spacer">
+
+        </div>
+      </div>
+    </div>
+</div>
+<!--
+<div class="info">
+  <div class="container hidden-xs">
+    <div class="row">
+      <div class="row-md-12 top-large-spacer bottom-large-spacer" align="center">
+      <h1>GNAH! is game about exploring and escaping giant heads</h1>
+      <p><span class="h2">Coming to PC Mac Linux & Ouya</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+<!-- Video/Header -->
+  <div class="video">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 top-large-spacer bottom-small-spacer" align="center">
+           <div onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; this.style.display='none'; document.getElementById('iframe').src = document.getElementById('iframe').src.replace('autoplay=0','autoplay=1'); ">
+           <img src="/images/videoImage.png"  class="img-responsive top-small-spacer bottom-large-spacer" style="cursor:pointer" /></div>
+           <div class="flex-video widescreen" id="thevideo" style="display:none">
+           <iframe id="iframe"  src="//www.youtube.com/embed/DKwQQM5Nm-Y?vq=hd720&autoplay=0&showinfo=0&controls=2&rel=0" frameborder="0" allowscriptaccess="always" allowfullscreen="true"></iframe>
+           </div>
+           <!-- Gameplay description -->
+        </div>
+      </div>
+      </div>
+</div>
+
+<!-- lounge desktop -->
+<div class="lounge hidden-xs" style="background-image: url('/images/loungePattern.png'); background-attachment: fixed;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 top-large-spacer bottom-large-spacer" align="center">
+        <img src="/images/lounge5.png" width="940px" class="img-responsive">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- lounge mobile -->
+<div class="lounge visible-xs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 top-large-spacer bottom-large-spacer" align="center">
+        <img src="/images/lounge5.png" width="940px" class="img-responsive">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--sub desktop-->
+<div class="submarine hidden-xs" style="background-image: url('/images/submarinePattern.png');background-attachment: fixed;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 top-large-spacer bottom-large-spacer" align="center">
+        <img src="/images/submarine5.png" width="940px" class="img-responsive">
+      </div>
+    </div>
+  </div>
+</div>
+<!--sub mobile-->
+<div class="submarine visible-xs" >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 top-large-spacer bottom-large-spacer" align="center">
+        <img src="/images/submarine5.png" width="940px" class="img-responsive">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fortune desktop -->
+<div class="fortune hidden-xs" style="background-image: url('/images/fortuneTellerPattern3.png');background-attachment: fixed;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 top-large-spacer bottom-large-spacer" align="center">
+        <img src="/images/fortuneTeller4.png" width="940px" class="img-responsive">
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fortune mobile -->
+<div class="fortune visible-xs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 top-large-spacer bottom-large-spacer" align="center">
+        <img src="/images/fortuneTeller4.png" width="940px" class="img-responsive">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Summary -->
+<div class="summary">
+  <div class="container hidden-xs">
+    <div class="row">
+        <div class="col-md-12 top-small-spacer bottom-large-spacer" align="center">
+			     <h1>GNAH! is game about exploring and escaping giant heads</h1><p><span class="h1"> Coming to PC • Mac • Linux & Ouya</span></p>
+           <p class="mailing top-small-spacer">Subscribe to the GNAH! newsletter for announcements, goodies, and release!</p>
+          <div class="col-md-12 top-small-spacer">
+           <!-- Mailing List sub -->
+            <form accept-charset="UTF-8" action="mailing_list/subscribe" class="mail-form" data-remote="true" id="mail-form" method="post">
+                    <input class="textfield" id="email" name="email" placeholder="Email" type="text" />
+                    <input class="subscribe" name="commit" type="submit" value="Notify Me!" />
+                    <div style="height:10px;" id="response"></div>
+                </form>
+          
+        </div>
+        <div class="col-md-12 top-small-spacer" align="center">
+        <p class="sub">For more on the game and screens read the <a href="http://forums.tigsource.com/index.php?topic=37481.0">Tigsource Devlog</a> </p>
+     		</div>
+     </div>
+    </div>
+  </div>
+</div>
+
+<!--phone portrait-->
+<div class="summary">
+  <div class="container visible-xs">
+    <div class="row">
+        <div class="col-md-12 top-small-spacer bottom-large-spacer" align="center">
+            <h1>GNAH! is game about exploring and escaping giant heads</h1><p class="top-small-spacer"><span class="h1"> Coming to PC • Mac • Linux & Ouya</span></p>
+           <p class="top-small-spacer">Subscribe to the GNAH! newsletter for announcements, goodies, and release!</p>
+          <div class="col-md-12 top-small-spacer">
+           <!-- Mailing List sub -->
+            <form accept-charset="UTF-8" action="mailing_list/subscribe" class="mail-form-phone" data-remote="true" id="mail-form" method="post">
+                    <input class="textfieldphone" id="email" name="email" placeholder="Email" type="text" />
+                    <div style="height:10px"></div>
+                    <input class="subscribephone" name="commit" type="submit" value="Notify Me!" />
+                     <div style="height:10px;" id="response"></div>
+                </form>
+          
+        </div>
+        <div class="col-md-12 top-xsmall-spacer" align="center">
+        <p>For more on the game and screens read the <a href="http://forums.tigsource.com/index.php?topic=37481.0">Tigsource Devlog</a> </p>
+        </div>
+     </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->    
+<nav class="navbar-static-bottom">
+    <div class="container hidden-xs">
+    	<div class="row">
+        <!-- Credits -->
+    		<div class="col-md-12 bottom-med-spacer top-large-spacer" align="center">
+    		 <p class="title2 bottom-small-spacer">A GAME BY</p>
+         <div class="col-md-3 col-md-offset-3  bottom-xsmall-spacer" align="center">
+          <a href="http://samuelboucher.tumblr.com"><img  src="/images/samLogo.png" width="183px"></a>           
+         
+         </div>
+
+         <div class="col-md-3">
+          <a href="http://www.ko-opmode.com"><img src="/images/ko-op.png" class="top-xsmall-spacer" width="161px"></a>
+         </div>
+        </div>
+        </div>
+
+        <!-- social -->
+      <div class="row">
+        <div class="col-md-12 top-small-spacer bottom-med-spacer" align="center">
+          <p class="title2 bottom-small-spacer">FOLLOW THE DEVELOPMENT</p>
+           <div class="bottom-xsmall-spacer">
+        <a href="https://twitter.com/KOOPmode" class="twitter-follow-button" data-show-count="true" >Follow @KOOPmode</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+       <div class="fb-like" data-href="https://facebook.com/koopmode" data-layout="standard" colorscheme="dark" data-action="like" data-show-faces="true" data-share="false"></div>
+      </div>
+      <!--
+          <a href="https://twitter.com/koopmode"><img src="/images/twitterlogo.png" width="92px"></a>
+          <a href="https://facebook.com/koopmode"><img src="/images/facebooklogo.png" width="92px"></a>
+        </div>
+        -->
+        <div class="col-md-12" align="center">
+        <a class="presskit h1" href="http://presskit.ko-opmode.com"><p>Presskit </a> <span class="white">•</span> 
+        <a class="presskit h1" href="mailto:contact@ko-opmode.com"> Email</a></p>
+          
+        </div>
+      </div>
+    		<!--
+    		<div class="col-md-6 col-md-offset-1" align="center">
+    		<a href="https://twitter.com/MonsieurEureka" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @monsieureureka</a>
+    		</div>
+    		<div class="col-md-2" align="center">
+    		<a href="https://twitter.com/koopmode" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @KO-OP MODE</a>
+    		</div>
+    		-->	
+    </div>
+</nav>
+<!-- phone portrait -->
+<nav class="navbar-static-bottom">
+    <div class="container visible-xs">
+      <div class="row">
+        <!-- Credits -->
+        <div class="col-md-12 bottom-med-spacer top-large-spacer" align="center">
+         <p class="title2phone bottom-small-spacer">A GAME BY</p>
+         <div class="col-xs-6 top-xsmall-spacer" align="center">
+          <a href="http://samuelboucher.tumblr.com"><img  src="/images/samLogo.png" width="80%"></a>           
+         </div>
+
+         <div class="col-xs-6">
+          <a href="http://www.ko-opmode.com"><img src="/images/ko-op.png" width="80%" class="top-xsmall-spacer"></a>
+         </div>
+        </div>
+        </div>
+
+        <!-- social -->
+      <div class="row">
+        <div class="col-md-12 top-med-spacer bottom-med-spacer" align="center">
+          <p class="title2phone bottom-small-spacer">FOLLOW THE DEVELOPMENT</p>
+        <div class="bottom-xsmall-spacer">
+        <a href="https://twitter.com/KOOPmode" class="twitter-follow-button" data-show-count="true" >Follow @KOOPmode</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </div>
+       <div width="100%" class="fb-like" data-href="https://facebook.com/koopmode" data-layout="standard" colorscheme="dark" data-action="like" data-show-faces="true" data-share="false"></div>
+
+      </div>
+        <div class="col-md-12" align="center">
+        <a class="presskit h1" href="http://presskit.ko-opmode.com"><p>Presskit </a><span class="white">•</span>
+        <a class="presskit h1" href="mailto:contact@ko-opmode.com"> Email</a></p>
+          
+        </div>
+      </div>
+        <!--
+        <div class="col-md-6 col-md-offset-1" align="center">
+        <a href="https://twitter.com/MonsieurEureka" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @monsieureureka</a>
+        </div>
+        <div class="col-md-2" align="center">
+        <a href="https://twitter.com/koopmode" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @KO-OP MODE</a>
+        </div>
+        --> 
+    </div>
+</nav>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script language="javascript" type="text/javascript" src="javascripts/context_blender.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-30393443-1', 'ko-opmode.com');
+  ga('send', 'pageview');
+
+</script>
+ </nav>
+  </body>
+</html>
