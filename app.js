@@ -14,7 +14,7 @@ var express = require('express')
 var mc_api_key = process.env.MC_API_KEY;
 var mc_newsletter_id = process.env.MC_NEWSLETTER_ID;
 
-var mc_interest_group = "GNAH! Newsletter";
+var mc_interest_group = "General All Purpose";
 
 try { 
     var api = new MailChimpAPI(mc_api_key, { version : '1.3', secure : false });
@@ -58,6 +58,11 @@ app.get('/', function (req, res) {
 app.post('/mailing_list/subscribe', function (req, res) {
   var email = req.body.email;
   subscribe(email, mc_interest_group, res);
+});
+
+app.post('/mailing_list/subscribe_general', function (req, res) {
+  var email = req.body.email;
+  subscribe(email, "General All Purpose", res);
 });
 
 

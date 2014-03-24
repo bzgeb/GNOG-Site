@@ -1,3 +1,11 @@
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 @font-face {
   font-family: "Bariol Big";
   src: url("/type/bariol_bold-webfont.eot");
@@ -14,245 +22,255 @@
     url("/type/bariol_light-webfont.otf") format("opentype"),
     url("/type/bariol_light-webfont.svg#bariol_lightlight") format("svg");
   }
-h1 { font-family: "Bariol Big", Helvetica, sans-serif; color: #6d1026; }
-
-
-body {
-	background-color: #85c1ad;
-	font-family: "Bariol Big", Helvetica, sans-serif;
-	color: #2e2446;
-	font-size: 24px;
-}
-
-a {
-	color: #FFF;
-	text-decoration: underline;
-
-}
-
-.subhead {
-	background-color: #FFF;
-}
 
 .h1 {
-	color: #FFF;
-	font-family: "Bariol Big", Helvetica, sans-serif;
+	font-family: "Bariol Light";
+  font-size: 3em;
 }
 
-.blue {
-	color: #242744;
-}
 
-.white {
-	color: #FFF;
-}
-
-.h2 {
-	font-family: "Bariol Light", Helvetica, sans-serif;
-	font-size: 36px;
-	color: #6972c8;
-
+.bold {
+	font-family: "Bariol Big";
+	font-size: 300%;
+	color: #af4e6a;
 }
 
 .info {
-	background-color: #c8353c;
+	color: #db7752;
 }
 
-.content {
-	background-color: #FFF;
+/* Float */
+
+.float {
+  display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 
-.submarine {
-	background-color: #121221;
-	position: relative;
+.float:hover {
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
-.lounge {
-	background-color: #fee5bb;
-	position: relative;
-}
-
-.fortune {
-	background-color: #470a18;
-	position: relative;
-}
-
-
-h1.title {
-
-	font-family: "Bariol Big";
-	color: #FFF;
-}
-
-.title2 {
-	font-size: 200%;
-	font-family: "Bariol Big";
-	color: #FFF;
-}
-.title2phone {
-
-	font-family: "Bariol Big";
-	font-size: 200%;
-	color: #FFF;
-}
-
-h1.sub {
-	font-family: "Bariol Light";
-	font-size: 200%;
-	color: #FFF;
-}
-
-h1.mailing {
-
-	font-family: "Bariol Light";
-	font-size: 200%;
-	color: #FFF;
-}
-
-
-h1.titlephone{
-	font-family: "Bariol Big";
-	font-size: 200%;
-	color: #FFF;
-}
-
-h1.mailingphone {
-
-	font-family: "Bariol Light";
-	font-size: 150%;
-	color: #FFF;
-}
-
-
-
-a.presskit {
-	text-decoration: none;
-}
-
-
-.navbar-static-bottom {
-	background-color: #1f203e;
-
-	margin: 0px;
-}
-
-.header {
-
-	background-color: #fff;
-	
-	background-position:center; 
-	background-repeat:repeat;
-	overflow: hidden; 
-	z-index: 0;
-	position: relative;
-
-
-
-}
-
-.weird {
-	margin-top: -30%;
-	position:absolute; 
-	top:0px; 
-	left:0px;
-}
-
-
-#rotate { 
-
-}
-
-#rotate {
-  -webkit-animation-name: rotate;
-  -webkit-animation-duration: 150s;
-  -webkit-animation-iteration-count:infinite;
-  -webkit-animation-timing-function:linear;
-  -moz-animation-name: rotate;
-  -moz-animation-duration:150s;
-  -moz-animation-iteration-count:infinite;
-  -moz-animation-timing-function:linear;
-}
-
-@-webkit-keyframes rotate {
-  from {-webkit-transform:rotate(0deg);}
-  to {  -webkit-transform:rotate(360deg);}
-}
-
-@-moz-keyframes rotate {
-  from {-moz-transform:rotate(0deg);}
-  to {  -moz-transform:rotate(360deg);}
-}
-
-
-.video {
-	background-image: url(/images/bgstars.png);
-	background-attachment: fixed;
-	position: relative;
-	color: #fff;
-	z-index: 1;
-}
-
-.summary {
-	background-color: #ffc76c;
-	position: relative;
-
-}
-
-
-.woodrow {
-	background-color: #5f6b33;
-	position: relative;
-}
 
 
 .textfield {
-	width: 300px;
+	width: 100%;
 	height:50px;
-	-moz-border-radius: 30px;
-	-webkit-border-radius: 30px;
-	border-radius: 30px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
 	outline:0px;
 	border: none;
-	font-size: 100%;
+	font-size: 200%;
 	font-weight: 500;
-	color: #2f2f2f;
-	background-color: #FFF;
-	border-color: #FFF;
-	margin-right:25px;
-	padding-left: 15px;
-}
-
-.textfieldphone {
-	width: 50%;
-	height:50px;
-	-moz-border-radius: 30px;
-	-webkit-border-radius: 30px;
-	border-radius: 30px;
-	outline:0px;
-	border: none;
-	font-size: 100%;
-	font-weight: 500;
-	color: #2f2f2f;
-	background-color: #FFF;
+	color: #f1f1f1;
+	background-color: #5b4a89;
 	border-color: #FFF;
 	margin-right:25px;
 	padding-left: 15px;
 }
 
 
-/*.textfield {
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
-	outline:0;
+.subscribe {
+	width: 100%;
+	height: 50px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	outline:0px;
+	border: none;
+	font-size: 200%;
+	font-weight: 500;
+	color: #ffffff;
+	background-color: #a1dbbd;
+	border-color: #FFF;
+	margin-right:25px;
+	padding-left: 15px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #31284b;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #31284b;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #31284b;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #31284b;
+}
+
+/* full height 
+
+
+html,body{height:100%;}
+
+.container {
+    height:100%;
+}
+
+
+/* full height */
+
+
+#logo {
+	
+	height: 100%;
+
+	background-attachment: fixed;
+	background-size: 50%;
+	background-color: #000;
+
+}
+
+
+.monsters {
+	background-color: #FFF;
+	color: #44724c;
+}
+
+/*
+.col-xs-6 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+*/
+
+.gameplay {
+	background-color: #fff;
+}
+
+.blueprint {
+	color: #FFF;
+}
+
+
+#monsters img {
+  
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -ms-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  /* ease-in-out */
+  -webkit-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  -ms-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
+  /* ease-in-out */
+}
+#monsters img:hover {
+  -webkit-transform: translate3d(0, -20px, 0);
+  -moz-transform: translate3d(0, -20px, 0);
+  -ms-transform: translate3d(0, -20px, 0);
+}
+
+#one {
+	z-index: 1;
+}
+
+#two {
+	z-index: -1;
+}
+
+/*
+
+#underline {
+text-decoration: none; 
+background: url(/images/underline.svg) ;
+background-repeat: no-repeat;
 }
 
 */
 
-a:hover {
-	color: #b72231;
+#twitch {
+  font-size: .5em;
+}
+
+
+.blueprintbig {
+	background-color: #141813;
+  font-family: "Bariol Light";
+  font-size: 3em;
+  color: #F1EEDD;
+}
+
+.blueprintbig a {
+  color: #F1EEDD;
+  font-family: "Bariol Big";
+}
+
+.blueprintsmall {
+  background-color: #141813;
+  font-family: "Bariol Light";
+  font-size: 3em;
+  color: #F1EEDD;
 
 }
+
+.blueprintsmall a {
+  color: #F1EEDD;
+  font-family: "Bariol Big";
+}
+
+.blueprintxsmall a {
+  color: #F1EEDD;
+  font-family: "Bariol Big";
+}
+
+.blueprintxsmall {
+  background-color: #141813;
+  font-family: "Bariol Light";
+  font-size: 2em;
+  color: #F1EEDD;
+}
+
+#blueprints {
+
+height: 370px;
+
+}
+
+#blueprints1 {
+
+height: 370px;
+
+}
+
+#blueprints2 {
+
+height: 370px;
+
+}
+
+.media-flex {
+    position: relative;
+    height: 0px;
+}
+
+.media-flex .gfyitem > div,
+.media-flex .gfyitem .gfyPreLoadCanvas,
+.media-flex .gfyitem .gfyVid,
+.media-flex .gfyitem  .gfyGif {
+    position: absolute !important;
+    top: 0; right: 0; bottom: 0; left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
 
 .flex-video {
   position: relative;
@@ -279,80 +297,48 @@ a:hover {
   .flex-video { padding-top: 0; }
 }
 
-.subscribe {
-	background-color:#c8353c;
-	-webkit-border-top-left-radius:26px;
-	-moz-border-radius-topleft:26px;
-	border-top-left-radius:26px;
-	-webkit-border-top-right-radius:26px;
-	-moz-border-radius-topright:26px;
-	border-top-right-radius:26px;
-	-webkit-border-bottom-right-radius:26px;
-	-moz-border-radius-bottomright:26px;
-	border-bottom-right-radius:26px;
-	-webkit-border-bottom-left-radius:26px;
-	-moz-border-radius-bottomleft:26px;
-	border-bottom-left-radius:26px;
-	text-indent:0;
-	border:0px solid #dcdcdc;
-	display:inline-block;
-	color:#FFF;
-	font-family:"Bariol Big";
-	font-size:24px;
-	font-weight:normal;
-	font-style:normal;
-	height:55px;
-	line-height:50px;
-	width:165px;
-	text-decoration:none;
-	text-align:center;
-}
-.subscribe:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #030103), color-stop(1, #000000) );
-	background:-moz-linear-gradient( center top, #030103 5%, #000000 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#030103', endColorstr='#000000');
-	background-color:#030103;
-}.subscribe:active {
-	position:relative;
-	top:1px;
+#woodrow {
+	background-image: url(/images/woodrowBackground-1.svg);
+	background-position: 50% 00%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+
 }
 
-.subscribephone {
-	background-color:#c8353c;
-	-webkit-border-top-left-radius:26px;
-	-moz-border-radius-topleft:26px;
-	border-top-left-radius:26px;
-	-webkit-border-top-right-radius:26px;
-	-moz-border-radius-topright:26px;
-	border-top-right-radius:26px;
-	-webkit-border-bottom-right-radius:26px;
-	-moz-border-radius-bottomright:26px;
-	border-bottom-right-radius:26px;
-	-webkit-border-bottom-left-radius:26px;
-	-moz-border-radius-bottomleft:26px;
-	border-bottom-left-radius:26px;
-	
-	border:0px solid #dcdcdc;
-	
-	color:#FFF;
-	font-family:"Bariol Big";
-	font-size:18px;
-	font-weight:normal;
-	font-style:normal;
-	margin-right: 20px;
-	margin-top: 5px;
-	line-height:30px;
-	width:40%;
-	text-decoration:none;
-	text-align:center;
+#woodrowmobile {
+  background-image: url(/images/woodrowBackground-1.svg);
+  background-position: 50% 00%;
+  background-repeat: no-repeat;
 }
-.subscribephone:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #030103), color-stop(1, #000000) );
-	background:-moz-linear-gradient( center top, #030103 5%, #000000 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#030103', endColorstr='#000000');
-	background-color:#030103;
+
+
+.footer {
+  background-color: #141813;
+  color: #F1EEDD;
+  font-family: "Bariol Big";
+  font-size: 1.5em;
 }
-.subscribephone:active {
-	position:relative;
-	top:1px;
+
+#rotate {
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-timing-function:linear;
+  -moz-animation-name: rotate;
+  -moz-animation-duration: 3s;
+  -moz-animation-iteration-count:infinite;
+  -moz-animation-timing-function:linear;
+
 }
+
+@-webkit-keyframes rotate {
+  from {-webkit-transform:rotate(360deg);}
+  to {  -webkit-transform:rotate(0deg);}
+}
+
+@-moz-keyframes rotate {
+  from {-moz-transform:rotate(360deg);}
+  to {  -moz-transform:rotate(0deg);}
+}
+
