@@ -1,0 +1,90 @@
+body {
+	background-color: #ffc500;
+	font-family: "Bariol Big";
+	color: #EF484A;
+	font-size: 2.3em;
+	/* Prevent elements from flickering due to CSS Transforms */
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+
+}
+
+/*.left-margin {
+	margin-left: 40px;
+}
+
+.right-margin {
+	margin-right: 80px;
+}*/
+
+.trees {
+	background-image: url('/images/eggnog/treesStars.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%; 
+	height: 650px;
+	z-index: -300;
+	
+
+}
+
+.main {
+	background-color: #FFE7AC;
+	
+}
+
+#yellow {
+	color: #FFCC29;
+}
+
+#cream {
+	color: #FFF5DC;
+}
+
+#test2 {
+	display: none;
+	position: absolute;
+
+}
+
+.hold {
+	position: relative;
+	height: auto;
+	z-index: 2;
+}
+
+.mobile {
+	line-height: 1.2em;
+}
+
+.facebook {
+  position: absolute;
+  margin-left: 95px;
+  margin-top: 2px;
+}
+
+.wallpaper {
+	background-color: #ffc500;
+	color: white;
+	font-size: 2em;
+}
+
+.wallpaper img{
+
+
+}
+
+.text-border {
+	border-bottom: 5px solid;
+	border-width: 10%;
+}
+
+.text {
+	line-height: 1.5em;
+}
+
+.social {
+	z-index: 2000;
+}

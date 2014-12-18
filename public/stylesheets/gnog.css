@@ -164,13 +164,13 @@ html,body{height:100%;}
   -ms-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
   -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
   transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
-  /* ease-in-out */
+
   -webkit-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
   -moz-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
   -ms-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
   -o-transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
   transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);
-  /* ease-in-out */
+
 }
 #monsters img:hover {
   -webkit-transform: translate3d(0, -20px, 0);
@@ -301,7 +301,7 @@ height: 370px;
 	background-image: url(/images/woodrowBackground-1.svg);
 	background-position: 50% 00%;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
+/*	background-attachment: fixed;*/
 	
 
 }

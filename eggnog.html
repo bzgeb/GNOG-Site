@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>egGNOG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GNOG is a game about exploring and escaping giant gnoggins. Coming to PC / Mac / Linux & More">
+    <meta property="og:title" content="GNOG" /> 
+    <meta property="og:site_name" content="GNOG"/>
+    <meta property="og:image" content="http://www.gnoggame.com/images/wallpaperRedFace.png" /> 
+    <meta property="og:description" content="GNOG is a game about exploring and escaping giant gnoggins. Coming to PC / Mac / Linux & More " /> 
+    <meta property="og:url" content="http://www.gnoggame.com/">
+    <meta property="og:type" content="article">
+    <meta property="fb:admins" content="13616068" />
+    <meta property="fb:admins" content="538875669" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@koopmode">
+    <meta name="twitter:creator" content="@monsieureureka">
+    <meta name="twitter:title" content="The Secret EGGNOG">
+    <meta name="twitter:description" content="GNOG is a mind bending adventure game about exploring and escaping giant gnoggins. Coming to PC / Mac / Linux & More">
+    <meta name="twitter:image:src" content="http://www.gnoggame.com/images/wallpaperRedFace.png">
+    <!-- Bootstrap -->
+    <link href="/stylesheets/bootstrap.min.css?body=1" media="all" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/common.css?body=1" media="all" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/gnog.css?body=1" media="all" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/eggnog.css?body=1" media="all" rel="stylesheet" type="text/css" />
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<div id="fb-root"></div>
+		  <script>(function(d, s, id) {
+	  	var js, fjs = d.getElementsByTagName(s)[0];
+	  	if (d.getElementById(id)) return;
+	  	js = d.createElement(s); js.id = id;
+	  	js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+	  	fjs.parentNode.insertBefore(js, fjs);
+		  }(document, 'script', 'facebook-jssdk'));
+		  </script>
+
+<!-- snow -->
+ <div class="hidden-xs"  style="position:absolute; width:100%; height: 100vh; z-index: 0;">  
+        <canvas id='snowfall'></canvas>
+</div>
+<div class="main">
+
+<!--Main content -->
+<div class="container ">
+    <div class="row" align="center">
+      <div class="trees hidden-xs">
+        <div class="top-xsmall-spacer hidden-xs"></div>
+        <div class="top-small-spacer visibile-xs"></div>
+        <div class="col-xs-12 " align="center">
+          <img src="/images/eggnog/title.svg" width="500px" class="img-responsive">
+          <div class="hold">
+            <img src="/images/eggnog/eggnogFace.svg" width="600px" class="left-margin top-med-spacer img-responsive" id="test">
+            <img src="/images/eggnog/eggnogBack.svg" width="600px" class="right-margin top-med-spacer img-responsive" id="test2">
+          </div> 
+        </div>
+      </div>
+      <div class="col-xs-12 visible-xs">
+        <img src="/images/eggnog/title.svg" width="500px" class="top-small-spacer bottom-med-spacer img-responsive">
+        <img src="/images/eggnog/eggnogFace.svg" width="600px" class="img-responsive">
+      </div>
+       <div class="col-xs-12 top-med-spacer text bottom-small-spacer visible-xs" align="left">
+          <p class="mobile">Once a year, a strange <span id="yellow">GNOG</span> shows up. It is the <span id="cream">EGGNOG</span>.</p><p class="mobile"> Mistaken for a sweet beverage, it hides souvenirs of a beautiful voyage...</p>
+      </div>
+    </div>
+</div>
+
+<!--text -->
+<div class="container">
+    <div class="row" align="center">
+      <!-- Hidden xs -->
+      <div class="col-xs-8 col-xs-offset-2 top-large-spacer text bottom-med-spacer hidden-xs" align="center">
+          <p class="">Once a year, a strange <span id="yellow">GNOG</span> shows up. It is the <span id="cream">EGGNOG</span>.<br> Mistaken for a sweet beverage, it hides souvenirs of a beautiful voyage...</p>
+      </div>
+      <!-- Visible xs -->
+
+    </div>
+  </div>
+</div>
+
+</div>
+<!--wallpapers -->
+
+<div class="wallpaper">
+  <div class="container top-small-spacer bottom-small-spacer">
+    <div class="row">
+      <div class="col-xs-12 bottom-small-spacer"  align="center">
+        <p>Wallpapers</p>
+    
+      </div>
+      <div class="col-sm-3 col-xs-6 bottom-xsmall-spacer" id="monsters" align="center">
+        <a href="/images/eggnog/wallpaper2FacesBeige.png"> <img src="/images/eggnog/wallpaper2FacesBeige.png" class="img-responsive"> </a>
+      </div>
+      <div class="col-sm-3 col-xs-6 bottom-xsmall-spacer" id="monsters" align="center">
+         <a href="/images/eggnog/wallpaper2FacesRed.png"> <img src="/images/eggnog/wallpaper2FacesRed.png" class="img-responsive"></a>
+      </div>
+      <div class="col-sm-3 col-xs-6" id="monsters" align="center">
+         <a href="/images/eggnog/wallpaperBeigeFace.png"> <img src="/images/eggnog/wallpaperBeigeFace.png" class="img-responsive"></a>
+      </div>
+      <div class="col-sm-3 col-xs-6" id="monsters" align="center">
+        <a href="/images/eggnog/wallpaperRedFace.png"><img src="/images/eggnog/wallpaperRedFace.png" class="img-responsive"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- share -->
+  <!-- <div class="container social" style="z-index:3;">
+    <div class="row">
+      <div class="col-xs-3 col-sm-2 col-md-1 top-small-spacer" align="left">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://eg.gnoggame.com" data-text="EGGNOG" >Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </div>
+      <div class="col-xs-2 col-md-1 facebook top-xsmall-spacer">
+            <div class="fb-share-button" data-layout="button" data-href="http://eg.gnoggame.com" data-width="100"></div>
+      </div>
+    </div>
+  </div>
+ -->
+<!-- Javascripts -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!--image rollover -->
+<script>
+          $('#test').on('mouseenter', function() {
+              $(this).fadeOut('fast');
+              $('#test2').fadeIn('fast');
+      });
+
+      $('#test2').css({left: $('#test').position().left, top: $('#test').position().top})
+                 .on('mouseleave', function() {
+              $(this).fadeOut('fast');
+              $('#test').fadeIn('fast');
+      });
+</script>
+
+<!--snowfall-->
+<script src="/javascripts/snowfall.js"></script>
+<script>
+    $(document).ready(function() {
+      $("#snowfall").Snowfall({
+        amount: 50 //Amount of particles
+          });
+    });
+</script>
+
+<!-- animate bg color -->
+<!-- <script src="/javascripts/jquery.color.js"></script> -->
+<!--<script>
+    $(".hold" ).hover(
+  function() {
+     $(".main").animate({backgroundColor: "#EF484A"}, 'slow');
+  }, function() {
+    $(".main").animate({backgroundColor:"#FFE7AC"},'slow');
+  });
+</script> -->
+
+  </body>
