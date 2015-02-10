@@ -1,74 +1,42 @@
-html,body
-{
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+$header-font: "adelle-sans", serif;
+$header-image: url('/images/mtgbackground.png');
+$monsters-text: #44724c;
+$body-font: "Bariol Big";
+
+
+a {
+	color: #FFF;
 }
 
-@font-face {
-  font-family: "Bariol Big";
-  src: url("/type/bariol_bold-webfont.eot");
-  src: local("☺"),
-    url("/type/bariol_bold-webfont.woff") format("woff"),
-    url("/type/bariol_bold-webfont.otf") format("opentype"),
-    url("/type/bariol_bold-webfont.svg#bariol_boldbold") format("svg");
-  }
-@font-face {
-  font-family: "Bariol Light";
-  src: url("/type/bariol_light-webfont.eot");
-  src: local("☺"),
-    url("/type/bariol_light-webfont.woff") format("woff"),
-    url("/type/bariol_light-webfont.otf") format("opentype"),
-    url("/type/bariol_light-webfont.svg#bariol_lightlight") format("svg");
-  }
-
 .h1 {
-	font-family: "Bariol Light";
-  font-size: 3em;
+	font-family: $header-font;
 }
 
 .h2 {
-  font-family: "Bariol Light";
-  font-size: 2em;
+	font-family: $header-font;
 }
 
+.header {
 
-.bold {
+	background-image: $header-image;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	color: white;
+
+}
+
+.monsters {
+	color: $monsters-text;
 	font-family: "Bariol Big";
-	font-size: 300%;
-	color: #af4e6a;
 }
 
-.bold-header {
-  font-family: "Bariol Big";
-  font-size: 300%;
-  color: #FFF;
-}
 
-.info {
-	color: #db7752;
-}
 
-/* Float */
 
-.float {
-  display: inline-block;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: transform;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
 
-.float:hover {
-  -webkit-transform: translateY(-5px);
-  -ms-transform: translateY(-5px);
-  transform: translateY(-5px);
-}
+
+
 
 
 
@@ -136,8 +104,10 @@ html,body{height:100%;}
 #logo {
 	
 	height: 100%;
-	background-size: cover;
-	background-image: url('/images/mtgbackground.png');
+
+	background-attachment: fixed;
+	background-size: 50%;
+	background-color: #4D7365;
 
 }
 
@@ -350,4 +320,3 @@ height: 370px;
   from {-moz-transform:rotate(360deg);}
   to {  -moz-transform:rotate(0deg);}
 }
-
