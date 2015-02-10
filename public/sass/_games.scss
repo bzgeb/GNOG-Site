@@ -1,0 +1,43 @@
+$games-bg-color: #F2F5F5;
+
+
+.games-navbar {
+	background-color: $games-bg-color
+}
+
+.games-container{
+
+
+
+	font-family: $headline-font;
+	color: $primary-color;
+	background-color: #fff;
+
+
+}
+
+.gallery {
+	p {
+		
+	}
+
+	.name {
+		float: left;
+		display: inline;
+		font-weight: 800;
+	}
+
+	.details {
+		float: right;
+		display: inline;
+	}
+
+	.status {
+		font-weight: 500;
+	}
+}
+
+.games-footer {
+
+	background-color: $games-bg-color;
+}
