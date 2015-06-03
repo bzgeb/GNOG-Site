@@ -16,6 +16,19 @@
     url("/type/bariol_light-webfont.svg#bariol_lightlight") format("svg");
   }
 
-  body {
-    font-family: "adelle-sans", serif;
-  }
+body {
+  font-size: 18px;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+   line-height: 1.45;
+}
+
+.h1,.h2 {
+  line-height: 1.2;
+}
+
+h1 { font-size: 2em; }
+h2 { font-size: 1.6em; }
+.h1 { font-size: 1.8em; }
+.h2 { font-size: 1.6em; }

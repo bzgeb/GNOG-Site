@@ -1,34 +1,62 @@
 $bg-color-home: #323432;
 $bg-color-store: #FFF;
-$link-color: #EDEAD5;
-$link-hover-color: #fff;
-
+$link-color: #3D3983;
+$link-hover-color: #FFF;
+$navbar-bg-color: #E9E9E9 ;
 
 
 /*Navbar styling*/
 
 .navbar {
-	background-color: $bg-color-home;
+	background-color: $navbar-bg-color;
 	border-radius: 0;
+	// font-family: ;
+}
+
+// .affix,.navbar-fixed-top{
+// -webkit-transform: scale3d(1,1,1)!important;
+// }
+
+// .navbar-toggle {
+// 	background-color: #4E2460;
+// }
+
+.icon-bar {
+	background-color: white;
+}
+
+.navbar-brand {
+	img {
+		padding-top: 7px;
+	}
+	.ko-op {
+		padding-top: 12px;
+	}
 }
 
 .navbar-custom {
-	font-family: "Bariol Big";	
-	font-size: 1.2em;
+	font-family: "Bariol Light";	
+	font-size: .9em;
 	margin-bottom: 0px;
 	border-radius: 0;
+	
 
 	a {
 		text-decoration: none;
 		margin-right: 5px;
+		padding-top: 2px !important;
 		// Remove this for collapsed navbar
-		margin-bottom: 10px; 
+		margin-bottom: 0px; 
 		color: $link-color !important;
 	}
 	a:hover {
  	color: $link-hover-color !important;
- 	background-color: $bg-color-home !important; 
+ 	background-color: transparent !important; 
 
+	}
+
+	.twitter-follow-button	{
+		margin-top: 2px;
 	}
 
 }
@@ -38,23 +66,23 @@ $link-hover-color: #fff;
 	/*text-decoration: underline;*/
 }
 
-.nav.nav-center {
-    display: inline-block;
-    left: 0;
-    right: 0;
-    margin:0;
-    float:none;
-}
+// .nav.nav-center {
+//     display: inline-block;
+//     left: 0;
+//     right: 0;
+//     margin:0;
+//     float:none;
+// }
 
-.navbar-inner{
-    text-align:center;
-}
+// .navbar-inner{
+//     text-align:center;
+// }
 
 
 
-    .navbar-nav{
-        float:none;
-        margin: 0 auto;
-        display: table;
-        table-layout: fixed;
-    }
+//     .navbar-nav{
+//         float:none;
+//         margin: 0 auto;
+//         display: table;
+//         table-layout: fixed;
+//     }

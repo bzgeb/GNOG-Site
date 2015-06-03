@@ -55,6 +55,10 @@ app.get('/', function (req, res) {
   res.render('index.html', { layout: false });
 });
 
+app.get('/screenshots', function (req, res) {
+  res.render('screenshots.html', { layout: false });
+});
+
 app.get('/eggnog', function (req, res) {
   res.render('eggnog.html', { layout: false });
 });
