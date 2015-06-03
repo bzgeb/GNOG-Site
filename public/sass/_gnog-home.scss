@@ -1,54 +1,134 @@
-$header-font: "adelle-sans", serif;
+$header-font: "Bariol Big", Sans-Serif;
+$header2-font: "Bariol Light", Sans-Serif;
 $header-image: url('/images/mtgbackground.png');
-$monsters-text: #44724c;
+$monsters-text: #e092ff;
 $body-font: "Bariol Big";
+$header-bg-color: #08041A;
 
 
 a {
 	color: #FFF;
 }
+.img-circle {
+  border-radius: 100% !important;
+}
 
 .h1 {
 	font-family: $header-font;
+  font-weight: 500;
+  // font-size: 2.0em;
 }
 
 .h2 {
-	font-family: $header-font;
+	font-family: $header2-font;
+  font-weight: 500;
+  // font-size: 1.5em;
+  // color: #FFF;
+}
+
+.h3 {
+  color: #767676;
+}
+
+ #one {
+      color: #fc4c6d;
+    }
+    #two {
+      color: #27dffd;
+    }
+    #three {
+      color: #2add74;
+    }
+
+.bgvideo {
+  height: 500px;
+  background-image: url('/images/may2015/secondSection.png');
+  background-size: cover;
+}
+
+.vert-center {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.awards {
+  background-color: $navbar-bg-color;
 }
 
 .header {
 
-	background-image: $header-image;
+	background-color: $header-bg-color;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: bottom;
 	color: white;
 
+
 }
 
 .monsters {
+  background-color: #FFF;
+  background-image: url('/images/may2015/firstSection.png');
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 500px;
 	color: $monsters-text;
-	font-family: "Bariol Big";
+  .h1 {
+	font-size: 1.7em;
+  }
+}
+
+.web {
+  // background-color: #1A2535;
+  // color: $link-color!important;
+  color: #fff;
+}
+
+.screenshots {
+  .h1 {
+    color: #FF5E4D;
+  }
+  // background-image: url('/images/may2015/gnogborder.svg'); 
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: 50% 00%;
+  background-image: linear-gradient(-180deg, #F0E582 0%, #ABFAE9 100%);
+
+}
+
+#woodrow {
+  .h1 {
+  font-family: "Bariol Light", Sans-Serif;
+  }
+}
+
+.info {
+  background-image: url('/images/may2015/newsletterSection.png');
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 500px;
+  .h1 {
+    color: #4e5092;
+  }
+  .h2 {
+    // font-size: 1.7em;
+  }
 }
 
 
-
-
-
-
-
-
-
-
 .textfield {
-	width: 100%;
+	width: 96%;
 	height:50px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	outline:0px;
 	border: none;
-	font-size: 200%;
+	font-size: 1.5em;
+  font-family: "Bariol Big", Sans-Serif;
 	font-weight: 500;
 	color: #f1f1f1;
 	background-color: #5b4a89;
@@ -59,14 +139,15 @@ a {
 
 
 .subscribe {
-	width: 100%;
+	width: 96%;
 	height: 50px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	outline:0px;
 	border: none;
-	font-size: 200%;
+  font-family: "Bariol Big", Sans-Serif;
+	font-size: 1.5em;
 	font-weight: 500;
 	color: #ffffff;
 	background-color: #a1dbbd;
@@ -75,54 +156,24 @@ a {
 	padding-left: 15px;
 }
 
+.subscribe:hover{
+  background-color: #629077;
+}
+
 ::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #31284b;
+    color:    #8A8CB1;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #31284b;
+    color:    #8A8CB1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #31284b;
+    color:    #8A8CB1;
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #31284b;
-}
-
-/* full height 
-
-
-html,body{height:100%;}
-
-.container {
-    height:100%;
+    color:    #8A8CB1;
 }
 
 
-/* full height */
-
-
-#logo {
-	
-	height: 100%;
-
-	background-attachment: fixed;
-	background-size: 50%;
-	background-color: #4D7365;
-
-}
-
-
-.monsters {
-	background-color: #FFF;
-	color: #44724c;
-}
-
-/*
-.col-xs-6 {
-	padding-left: 0px;
-	padding-right: 0px;
-}
-*/
 
 .gameplay {
 	background-color: #fff;
@@ -157,13 +208,13 @@ html,body{height:100%;}
   -ms-transform: translate3d(0, -20px, 0);
 }
 
-#one {
-	z-index: 1;
-}
+// #one {
+// 	z-index: 1;
+// }
 
-#two {
-	z-index: -1;
-}
+// #two {
+// 	z-index: -1;
+// }
 
 /*
 
@@ -183,13 +234,14 @@ background-repeat: no-repeat;
 .blueprintbig {
 	background-color: #141813;
   font-family: "Bariol Light";
-  font-size: 3em;
+  font-size: 2em;
   color: #F1EEDD;
 }
 
 .blueprintbig a {
   color: #F1EEDD;
   font-family: "Bariol Big";
+  text-decoration: underline;
 }
 
 .blueprintsmall {
@@ -235,47 +287,6 @@ height: 370px;
 
 }
 
-.media-flex {
-    position: relative;
-    height: 0px;
-}
-
-.media-flex .gfyitem > div,
-.media-flex .gfyitem .gfyPreLoadCanvas,
-.media-flex .gfyitem .gfyVid,
-.media-flex .gfyitem  .gfyGif {
-    position: absolute !important;
-    top: 0; right: 0; bottom: 0; left: 0;
-    width: 100% !important;
-    height: 100% !important;
-}
-
-
-.flex-video {
-  position: relative;
-  padding-top: 25px;
-  padding-bottom: 67.5%;
-  height: 0;
-  margin-bottom: 16px;
-  overflow: hidden;
-}
- 
-.flex-video.widescreen { padding-bottom: 57.25%; }
-.flex-video.vimeo { padding-top: 0; }
- 
-.flex-video iframe,
-.flex-video object,
-.flex-video embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
-  .flex-video { padding-top: 0; }
-}
-
 #woodrow {
 	background-image: url(/images/woodrowBackground-1.svg);
 	background-position: 50% 00%;
@@ -295,8 +306,23 @@ height: 370px;
 .footer {
   background-color: #141813;
   color: #F1EEDD;
-  font-family: "Bariol Big";
+  font-family: $header2-font;
   font-size: 1.5em;
+  a {
+    text-decoration: underline;
+    font-size: .7em;
+  }
+}
+
+.inline-image {
+  display: inline-block;
+  img {
+  border: 0 none;
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
 }
 
 #rotate {

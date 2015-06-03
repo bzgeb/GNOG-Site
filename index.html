@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-   	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GNOG</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="GNOG is a game about exploring and escaping giant gnoggins. Coming to PC / Mac / Linux & More">
+    <title>GNOG - Coming 2016</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GNOG is a wondrous journey through a universe of visually stunning and playfully interactive monster heads">
     <meta property="og:title" content="GNOG" /> 
     <meta property="og:site_name" content="GNOG"/>
-    <meta property="og:image" content="http://www.gnoggame.com/images/facebooksharesub.png" /> 
-    <meta property="og:description" content="GNOG is a game about exploring and escaping giant gnoggins. Coming to PC / Mac / Linux & More " /> 
+    <meta property="og:image" content="http://presskit.ko-opmode.com/gnog/images/Screen-Shot-2015-04-20-at-6.19.18-PM.png" /> 
+    <meta property="og:description" content="GNOG is a wondrous journey through a universe of visually stunning and playfully interactive monster heads" /> 
     <meta property="og:url" content="http://www.gnoggame.com/">
     <meta property="og:type" content="article">
     <meta property="fb:admins" content="13616068" />
@@ -17,89 +17,150 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@koopmode">
     <meta name="twitter:creator" content="@monsieureureka">
-    <meta name="twitter:title" content="GNOG Explore and escape giant monster gnoggins">
-    <meta name="twitter:description" content="GNOG is a mind bending adventure game about exploring and escaping giant gnoggins. Coming to PC / Mac / Linux & More">
-    <meta name="twitter:image:src" content="http://gnog.ko-opmode.com/images/facebooksharesub.jpg">
+    <meta name="twitter:title" content="GNOG is a wondrous journey through a universe of visually stunning and playfully interactive monster heads">
+    <meta name="twitter:description" content="Explore a myriad of unique interconnected heads and the worlds they carry within">
+    <meta name="twitter:image:src" content="http://presskit.ko-opmode.com/gnog/images/Screen-Shot-2015-04-20-at-6.19.18-PM.png">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Typekit 
+    <script src="//use.typekit.net/rii4gch.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+    -->
     <!-- Bootstrap -->
-    <link href="/stylesheets/bootstrap.min.css?body=1" media="all" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/common.css?body=1" media="all" rel="stylesheet" type="text/css" />
-    <link href="/stylesheets/gnog.css?body=1" media="all" rel="stylesheet" type="text/css" />
 
-
+    <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="/css/main.css" media="all" rel="stylesheet" type="text/css" />
+    <!-- Flow Type -->
+    <script src="/bower_components/Flowtype.js/flowtype.js"></script>
+    <script type="text/javascript">$('body').flowtype({
+       minimum   : 500,
+       maximum   : 1200,
+       minFont   : 12,
+       maxFont   : 20,
+       fontRatio : 40
+    });</script>    
+    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
+
   </head>
   <body>
-  	<div id="fb-root"></div>
-		  <script>(function(d, s, id) {
-	  	var js, fjs = d.getElementsByTagName(s)[0];
-	  	if (d.getElementById(id)) return;
-	  	js = d.createElement(s); js.id = id;
-	  	js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
-	  	fjs.parentNode.insertBefore(js, fjs);
-		  }(document, 'script', 'facebook-jssdk'));
-		  </script>
+    <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&status=0";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+      </script>
 
-<!-- Main Content --> 
-  
-<!-- Header -->
+<nav class="navbar navbar-custom" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed hidden-xs" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="/images/may2015/gnogtext.svg" class=" img-responsive" width="110px"></a>
 
-<div id="logo">
-  <div class="container bottom-large-spacer">
-    <div class="row">
-      <div class="col-md-12" align="center">
-        <img src="/images/logoending.svg" width="150px" class="top-large-spacer bottom-small-spacer img-responsive">
-
-            <div onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; this.style.display='none'; document.getElementById('iframe').src = document.getElementById('iframe').src.replace('autoplay=0','autoplay=1'); ">
-           <img src="/images/ensemblevideo.png" width="1200px" class="img-responsive top-small-spacer" style="cursor:pointer" /></div>
-           <div class="flex-video widescreen top-small-spacer  bottom-large-spacer" id="thevideo" style="display:none">
-           <iframe id="iframe"  src="//www.youtube.com/embed/FanFarM-4-o?autoplay=0&showinfo=0&controls=2&rel=0" frameborder="0" allowscriptaccess="always" allowfullscreen="true"></iframe>
-           </div>
-           <div class="top-small-spacer"></div>
-        <p class="bold-header">Introducing: The Ensemble</p>
-        <p class="h2">A member of the GNOG family</p>  
-      </div>
-    </div>
   </div>
-</div>
+        
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse top-xsmall-spacer bottom-small-spacer" id="navbar-collapse">
+      
+      <ul class="nav navbar-nav">
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <!-- <li><a href="/screenshots">Screenshots</a></li> -->
+        <li><a href="#newsletter">Newsletter</a></li>
+        <li><a href="#newsletter">Blog</a></li>
+        <li><a href="#newsletter">Media</a></li>
+        <!-- <li><a href="http://twitter.com/koopmode">Twitter</a></li> -->
+        <li><a href="#footer">Contact</a></li>
+        <li><a href="https://twitter.com/KOOPmode" class="twitter-follow-button" data-show-count="false">Follow @KOOPmode</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+        <li><a href="https://www.youtube.com/channel/UC8BCOSxp368sO1u2gx4kgKA?spfreload=10"><img src="/images/may2015/youtube.svg" width="18px" class="img-responsive"></a></li>
+        <!--  <li><form accept-charset="UTF-8" action="mailing_list/subscribe" class="mail-form" data-remote="true" id="mail-form" method="post">
+                    <input name="email" placeholder="Join the newsletter!" type="text" />
+                  
+                    <input class="subscribe" name="commit" type="submit" value="Subscribe" />
+                     <div style="height:10px;" id="response"></div>
+                </form></li> -->
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div> <!-- /.container-fluid -->
+</nav>
 
-<!-- Monsters Gallery -->
-
-<div class="monsters">
+<div class="header">
   <div class="container">
     <div class="row">
-    <div class="col-xs-12 top-small-spacer bottom-med-spacer" align="center">
-      <p class="h1 top-med-spacer">GNOG is about exploring giant heads</p>
-    </div>
-      <div class="col-md-12" align="center" id="monsters">
-        <div class="col-xs-6">
-          <img class="img-responsive bottom-med-spacer" data-hover="/images/fortuneWhiteSpace-interior.svg" src="/images/fortuneWhiteSpace.svg" id="one">
-        </div>
-            <div class="col-xs-6">
-          <img src="/images/bedroomWhiteSpace.svg" data-hover="/images/bedroomWhiteSpace-interior.svg" id="one"  class="img-responsive bottom-med-spacer">
-        </div>
-      </div>
-        <div class="col-md-12" align="center" id="monsters">
-        <div class="col-xs-6 visible-sm visible-md visible-lg">
-          <img class="img-responsive top-large-spacer" data-hover="/images/loungeWhiteSpace-interior.svg" src="/images/loungeWhiteSpace.svg" id="one">
-        </div>
-        <div class="col-xs-6 visible-xs">
-          <img class="img-responsive top-xsmall-spacer" data-hover="/images/loungeWhiteSpace-interior.svg" src="/images/loungeWhiteSpace.svg" id="one">
-        </div>
-            <div class="col-xs-6">
-          <img src="/images/synthWhiteSpace.svg" data-hover="/images/synthWhiteSpace-interior.svg" id="one"  class="img-responsive bottom-large-spacer">
-        </div>
-      </div>
+      <div class="col-xs-12 bottom-large-spacer" align="center">
+          <div onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; this.style.display='none'; document.getElementById('iframe').src = document.getElementById('iframe').src.replace('autoplay=0','autoplay=1'); ">
+           <img src="/images/may2015/sonythumbnail2.png" width="950px" class="top-med-spacer bottom-med-spacer img-responsive hidden-xs" style="cursor:pointer" />
+           <img src="/images/may2015/sonythumbnail2.png" width="80%" class="img-responsive visisble-xs hidden-sm hidden-md hidden-lg top-xsmall-spacer" style="cursor:pointer" />
+           </div>
+            <div class="col-xs-12 embed-responsive embed-responsive-16by9" id="thevideo" style="display:none">
 
+           <iframe class="top-xsmall-spacer bottom-small-spacer" id="iframe" src="//www.youtube.com/embed/FanFarM-4-o?autoplay=0&showinfo=0&controls=2&rel=0" frameborder="0" allowscriptaccess="always" allowfullscreen="true"></iframe>
+           </div>
+          <p class="h1 text-center">GNOG is Launching on Playstation</p>
+        <p class="h2">watch the official trailer</p>
+         <img src="/images/may2015/awards3.png" width="900px" class="top-med-spacer img-responsive">
+      </div>
     </div>
   </div>
 </div>
 
-<!-- Woodrow -->
+<!-- Awards -->
+<!-- <div class="awards">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 top-xsmall-spacer bottom-xsmall-spacer" align="center">
+        <img src="/images/may2015/awards2.png" width="900px" class="img-responsive">
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!-- Top Description -->
+<div class="monsters">
+  <div class="container vert-center">
+    <div class="row">
+    <div class="col-xs-12"><img src="/images/may2015/houseinout.png" class="img-responsive visible-xs">
+    <div class="col-sm-6 col-sm-offset-3 col-xs-12" align="center">
+      <p class="h1">GNOG is about exploring giant monsters and their inner worlds</p>
+      
+    </div>
+    <img src="/images/may2015/houseinout.png" class="img-responsive visible-xs">
+    </div>
+    </div>
+  </div>
+</div>
+<!-- web -->
+
+<div class="bgvideo" data-vide-bg="/video/roughselect.mp4" data-vide-options="loop: true, muted: true, position: 50% 50%">
+  <div class="vert-center container web">
+    <div class="row">
+<!--       <div class="col-sm-6">
+        <img src="/images/may2015/web.svg" class="img-responsive">
+      </div> -->
+      <div class="col-sm-12" align="center">
+        <div class="col-sm-6 col-sm-offset-3 col-xs-12" align="center">
+          <p class="h1">Each <span id="one">head</span> is part of an <span id="two">interconnected</span> world filled with tantalizing <span id="three">secrets</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Woodrow 
 <div id="woodrow">
   <div class="container visible-lg">
     <div class="row">
@@ -111,8 +172,8 @@
     </div>
   </div>
 </div>
-
-<!-- Woodrow Mobile -->
+-->
+<!-- Woodrow Mobile 
 <div id="woodrowmobile">
   <div class="container visible-xs visible-sm visible-md">
     <div class="row">
@@ -124,36 +185,90 @@
     </div>
   </div>
 </div>
-
+-->
 <!-- Mailing List -->
-
 <div class="info">
-<img src="/images/woodrowBackground-leavesBottom.svg" align="center" class="img-responsive top-large-spacer">
-  <div class="container bottom-large-spacer">
-    <div class="row top-large-spacer">
-      <div class="col-lg-7 col-md-6 top-small-spacer" align="center">
-        <div class="col-xs-6 col-md-6">
-        <img src="/images/squidCircle.svg" class="img-responsive bottom-med-spacer">
-        <img src="/images/bunnyCircle.svg" class="img-responsive bottom-med-spacer">
+<a name="newsletter"></a>
+<!-- <img src="/images/woodrowBackground-leavesBottom.svg" align="center" class="img-responsive top-large-spacer hidden-xs"> -->
+  <div class="container vert-center">
+    <div class="row">
+      <!-- <div class="col-lg-7 col-md-6 hidden-sm hidden-xs" align="center">
+        <div class="col-xs-6 col-md-6 ">
+        <img src="/images/may2015/bug.gif" class="img-responsive  bottom-med-spacer">
+        <img src="/images/may2015/bug.gif" class="img-responsive  bottom-med-spacer">
         </div>
         <div class="col-xs-6 col-md-6">
-        <img src="/images/deerCircle.svg" class="img-responsive bottom-med-spacer">
-        <img src="/images/skeletonCircle.svg" class="img-responsive bottom-med-spacer">
+        <img src="/images/may2015/bug.gif" class="img-responsive  bottom-med-spacer">
+        <img src="/images/may2015/bug.gif" class="img-responsive  bottom-med-spacer">
         </div>
+      </div> -->
+      <div class="col-sm-6 col-sm-offset-3 col-xs-12" align="center">
+      <p class="h1">Launching on <span id="two">Playstation</span> in 2016 <br> and coming to <span id="three">Steam</span> and <span id="one">iOS</span> later</p> 
+      <p class="h3 ">Subscribe to the newsletter for monthly updates, and new platform announcements</p>
       </div>
-      <div class="col-lg-4 col-md-6 col-lg-offset-1 top-med-spacer">
-      <p class="bold">GNOG is coming to PC, Mac & Linux later in 2015</p>
-      <p class="h1 top-small-spacer">Subscribe to the GNOG newsletter for monthly announcements, goodies, and release</p>
+     <div class="col-sm-6 col-sm-offset-3 col-xs-12" align="center">
       <form accept-charset="UTF-8" action="mailing_list/subscribe" class="mail-form top-med-spacer" data-remote="true" id="mail-form" method="post">
-                    <input class="textfield" id="email" name="email" placeholder="Email" type="text" />
+                    <input class="textfield" id="email" name="email" placeholder="Email..." type="text" />
                     <div class="top-small-spacer"></div>
                     <input class="subscribe" name="commit" type="submit" value="Notify Me!" />
                      <div style="height:10px;" id="response"></div>
                 </form>
       </div>
+      </div>
     </div>
   </div>
 </div>
+
+<!-- Screenshots -->
+<div class="screenshots">
+  <div class="container">
+    <div class="row" align="">
+    <div class="col-xs-12 bottom-small-spacer" align="center">
+      <p class="h1">SCREENSHOTS</p>
+    </div>
+      <div class="col-sm-4">
+        <img src="/images/may2015/screenshot1.png" class="bottom-small-spacer img-responsive">
+      </div>
+      <div class="col-sm-4">
+        <img src="/images/may2015/screenshot2.png" class="bottom-small-spacer img-responsive">  
+      </div>
+      <div class="col-sm-4">
+        <img src="/images/may2015/screenshot3.png" class="bottom-small-spacer img-responsive">
+      </div>
+      <div class="col-sm-4">
+        <img src="/images/may2015/screenshot4.png" class="bottom-small-spacer img-responsive">  
+      </div>
+      <div class="col-sm-4">
+        <img src="/images/may2015/screenshot5.png" class="bottom-small-spacer img-responsive">  
+      </div>
+      <div class="col-sm-4">
+        <img src="/images/may2015/screenshot6.png" class="bottom-small-spacer img-responsive">  
+      </div>
+    </div>
+    <!-- Trailers -->
+    <div class="row">
+      <div class="col-xs-12 bottom-small-spacer" align="center">
+        <p class="h1">TRAILERS</p>
+      </div>
+      <div class="col-xs-6 bottom-xsmall-spacer">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe  src="//www.youtube.com/embed/DKwQQM5Nm-Y?rel=0" frameborder="0"></iframe>
+        </div>
+       </div> 
+      <div class="col-md-6 bottom-xsmall-spacer">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe  src="//www.youtube.com/embed/FanFarM-4-o?rel=0" frameborder="0"></iframe>
+        </div>
+      </div>
+      <div class="col-xs-12 bottom-xsmall-spacer">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe  src="//www.youtube.com/embed/DKwQQM5Nm-Y?rel=0" frameborder="0"></iframe>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+
 
 <!-- Visible LG -->
 
@@ -213,29 +328,29 @@
 
       <div class="col-sm-6 bottom-med-spacer" align="center">
         
-        <div class="media-flex" style="padding-bottom: 56.333333%">
+       
         <img class="gfyitem" data-id="ViciousAdeptCrow" data-controls="false" data-perimeter="false" />
-        </div>
+       
       </div>
 
       <div class="col-sm-6 bottom-med-spacer" align="center">
         
-        <div class="media-flex" style="padding-bottom: 56.333333%">
+       
         <img class="gfyitem" data-id="ChillyGrizzledJumpingbean" data-controls="false" data-perimeter="false" />
-        </div>
+       
       </div>
 
     <div class="col-sm-6 bottom-med-spacer" align="center">
       
-       <div class="media-flex" style="padding-bottom: 56.333333%">
+       
         <img class="gfyitem" data-id="ForcefulOrnateBighorn" data-controls="false" data-perimeter="false" />
-        </div>
+       
     </div>
     <div class="col-sm-6 bottom-xlarge-spacer" align="center">
       
-        <div class="media-flex" style="padding-bottom: 56.333333%">
+       
         <img class="gfyitem" data-id="ThisWeepyAsiaticwildass" data-controls="false" data-perimeter="false" />
-        </div>
+       
     </div>
     </div>    
   </div>
@@ -271,47 +386,41 @@
 <!-- Footer -->
 <div class="footer">
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 top-large-spacer" align="center">
-                <a href="http://www.ko-opmode.com"><img src="/images/footer.svg" width="700px" class="img-responsive bottom-med-spacer"></a>
+        <div class="row bottom-small-spacer">
+            <div class="col-sm-12 top-small-spacer" align="center">
+              <p class="bottom-small-spacer">A GAME BY</p>
+              <a href="http://www.ko-opmode.com"><img src="/images/may2015/ko-op.png" width="200px" class="img-responsive bottom-med-spacer"></a>
+            
+            
+            <p>IN PARTNERSHIP WITH</p>
+            <div class="inline-image">
+            <img src="/images/may2015/PS4_F_A_neg.svg" class="top-xsmall-spacer bottom-xsmall-spacer img-responsive" width="200px">
+            <img src="/images/may2015/DF_Presents_FullColor.png" class="top-xsmall-spacer bottom-xsmall-spacer img-responsive" width="150px">
             </div>
             
-            <div class="col-xs-12 top-small-spacer" align="center">
+            
+            
                 <p>Follow the Development</p>
                 <a href="https://twitter.com/KOOPmode" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @KOOPmode</a>
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                              <p><a href="http://presskit.ko-opmode.com/sheet.php?p=gnog">Presskit</a> | <a href="mailto:contact@ko-opmode.com">Email us</a></p>
             </div>
-            <div class="col-sm-12 visible-sm visible-md visible-lg" align="center">
-                 
-                 <div width="300px" class="fb-like" data-href="https://facebook.com/koopmode" data-layout="standard" colorscheme="dark" data-action="like" data-show-faces="false" data-share="false"></div>
-
-            </div>
-            <div class="col-xs-6 col-xs-offset-3 visible-xs" align="center">
-                 
-                 <div width="300px" class="fb-like" data-href="https://facebook.com/koopmode" data-layout="standard" colorscheme="dark" data-action="like" data-show-faces="false" data-share="false"></div>
-
-            </div>
-            <div class="col-xs-12 top-med-spacer" align="center">
+            
+            
+            <!-- <div class="col-xs-12 top-med-spacer" align="center">
                 <p><a href="http://presskit.ko-opmode.com/sheet.php?p=gnog">Presskit</a> | <a href="mailto:contact@ko-opmode.com">Email us</a></p>
                 <a href="#top"><img src="/images/footer-arrow.svg" width="50px" id="rotate" class="top-small-spacer bottom-small-spacer img-responsive"></a>
-            </div>
-            <div class="top-small-spacer">
-              
-            </div>
+            </div> -->
         </div>
     </div>
 </div>
 
-<!-- closing body and html -->
-    <script>
-
-         (function(d, t) {
-            var g = d.createElement(t),
-                s = d.getElementsByTagName(t)[0];
-            g.src = 'http://assets.gfycat.com/js/gfyajax-0.517d.js';
-            s.parentNode.insertBefore(g, s);
-        }(document, 'script'));
-    </script>
+ <!-- Javascripts
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Twitter -->
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <!-- Google Analytics -->
    <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -322,13 +431,28 @@
   ga('send', 'pageview');
 
 </script>
+<!-- gfycat -->
+    <script>
+
+         (function(d, t) {
+            var g = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            g.src = 'http://assets.gfycat.com/js/gfyajax-0.517d.js';
+            s.parentNode.insertBefore(g, s);
+        }(document, 'script'));
+    </script>
+    
+    <script src="https://code.jquery.com/jquery.js"></script>
+   
+
+<!-- Line drawing -->
 <script>
     $("a[href='#top']").click(function() {
   $("html, body").animate({ scrollTop: 0 }, 1000);
   return false;
 });
 </script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    
     <script src="/javascripts/waypoints.js"></script>
     <script src="/javascripts/raphael-min.js"></script>
     <script src="/javascripts/jquery.lazylinepainter-1.4.1.min.js"></script>
@@ -957,14 +1081,18 @@
          {
             "svgData": pathObj,
             "strokeWidth": 1.5,
-            "strokeColor": "#F1EEDD",
+            "strokeColor": "#DFB860",
 
         }).lazylinepainter('paint'); 
          });
               }, { triggerOnce: true});
             });
     </script>
-    <script src="/javascripts/jquery_ujs.js" type="text/javascript"></script>
-    <script src="/javascripts/static_pages.js" type="text/javascript"></script>
+
+<script src="/javascripts/jquery_ujs.js" type="text/javascript"></script>
+<!-- Bootstrap -->
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js" type="text/javascript"></script>
+   <!-- vide -->
+   <script type="text/javascript" src="/bower_components/vide/dist/jquery.vide.min.js"></script>
   </body>
 </html>
