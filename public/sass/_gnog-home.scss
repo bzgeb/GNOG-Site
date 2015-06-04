@@ -3,15 +3,14 @@ $header2-font: "Bariol Light", Sans-Serif;
 $header-image: url('/images/mtgbackground.png');
 $monsters-text: #e092ff;
 $body-font: "Bariol Big";
-$header-bg-color: #08041A;
+$header-bg-color: #1d092a;
+$footer-bg-color: #111222;
 
 
 a {
 	color: #FFF;
 }
-.img-circle {
-  border-radius: 100% !important;
-}
+
 
 .h1 {
 	font-family: $header-font;
@@ -20,7 +19,7 @@ a {
 }
 
 .h2 {
-	font-family: $header2-font;
+	font-family: $header-font;
   font-weight: 500;
   // font-size: 1.5em;
   // color: #FFF;
@@ -38,6 +37,12 @@ a {
     }
     #three {
       color: #2add74;
+    }
+    #four {
+      color: #AE98C9;
+    }
+    #five {
+      color: #ffee5f;
     }
 
 .bgvideo {
@@ -61,13 +66,21 @@ a {
 .header {
 
 	background-color: $header-bg-color;
-	background-size: cover;
+	background-image: url('/images/may2015/header.png');
+  background-position: 50% 0%;
+  background-size: cover;
 	background-repeat: no-repeat;
-	background-position: bottom;
 	color: white;
 
 
 }
+
+.intro {
+  background-color: #1d092a;
+  color: white;
+}
+
+
 
 .monsters {
   background-color: #FFF;
@@ -113,8 +126,10 @@ a {
   .h1 {
     color: #4e5092;
   }
-  .h2 {
-    // font-size: 1.7em;
+  .h3 {
+    font-family: $header-font;
+    color: #4e5092;
+
   }
 }
 
@@ -130,8 +145,8 @@ a {
 	font-size: 1.5em;
   font-family: "Bariol Big", Sans-Serif;
 	font-weight: 500;
-	color: #f1f1f1;
-	background-color: #5b4a89;
+	color: #FFF;
+	background-color: #fc4c6d;
 	border-color: #FFF;
 	margin-right:25px;
 	padding-left: 15px;
@@ -149,8 +164,8 @@ a {
   font-family: "Bariol Big", Sans-Serif;
 	font-size: 1.5em;
 	font-weight: 500;
-	color: #ffffff;
-	background-color: #a1dbbd;
+	color: #4e5092;
+	background-color: #2add74;
 	border-color: #FFF;
 	margin-right:25px;
 	padding-left: 15px;
@@ -161,16 +176,16 @@ a {
 }
 
 ::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #8A8CB1;
+    color:    #FFF;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #8A8CB1;
+    color:    #FFF;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #8A8CB1;
+    color:    #FFF;
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #8A8CB1;
+    color:    #FFF;
 }
 
 
@@ -304,13 +319,18 @@ height: 370px;
 
 
 .footer {
-  background-color: #141813;
+  background-color: #16182c;
   color: #F1EEDD;
-  font-family: $header2-font;
+  font-family: $header-font;
   font-size: 1.5em;
+  color: #4e5092;
+  .links {
   a {
     text-decoration: underline;
     font-size: .7em;
+    margin-right: 20px;
+    margin-left: 20px
+  }
   }
 }
 
@@ -322,6 +342,7 @@ height: 370px;
   height: auto;
   max-width: 100%;
   vertical-align: middle;
+
 }
 }
 

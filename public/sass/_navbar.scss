@@ -1,7 +1,7 @@
 $bg-color-home: #323432;
 $bg-color-store: #FFF;
 $link-color: #3D3983;
-$link-hover-color: #FFF;
+$link-hover-color: #898989;
 $navbar-bg-color: #E9E9E9 ;
 
 
@@ -35,7 +35,7 @@ $navbar-bg-color: #E9E9E9 ;
 }
 
 .navbar-custom {
-	font-family: "Bariol Light";	
+	font-family: "Bariol Big";	
 	font-size: .9em;
 	margin-bottom: 0px;
 	border-radius: 0;
@@ -57,6 +57,8 @@ $navbar-bg-color: #E9E9E9 ;
 
 	.twitter-follow-button	{
 		margin-top: 2px;
+		margin-right: 50px;
+		margin-left: 15px;
 	}
 
 }
