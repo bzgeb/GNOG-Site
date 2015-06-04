@@ -51,7 +51,7 @@ h2 {
   padding-top: 12px; }
 
 .navbar-custom {
-  font-family: "Bariol Light";
+  font-family: "Bariol Big";
   font-size: .9em;
   margin-bottom: 0px;
   border-radius: 0; }
@@ -62,10 +62,12 @@ h2 {
     margin-bottom: 0px;
     color: #3D3983 !important; }
   .navbar-custom a:hover {
-    color: #FFF !important;
+    color: #898989 !important;
     background-color: transparent !important; }
   .navbar-custom .twitter-follow-button {
-    margin-top: 2px; }
+    margin-top: 2px;
+    margin-right: 50px;
+    margin-left: 15px; }
 
 #active {
   color: #fff !important;
@@ -128,15 +130,12 @@ h2 {
 a {
   color: #FFF; }
 
-.img-circle {
-  border-radius: 100% !important; }
-
 .h1 {
   font-family: "Bariol Big", Sans-Serif;
   font-weight: 500; }
 
 .h2 {
-  font-family: "Bariol Light", Sans-Serif;
+  font-family: "Bariol Big", Sans-Serif;
   font-weight: 500; }
 
 .h3 {
@@ -150,6 +149,12 @@ a {
 
 #three {
   color: #2add74; }
+
+#four {
+  color: #AE98C9; }
+
+#five {
+  color: #ffee5f; }
 
 .bgvideo {
   height: 500px;
@@ -167,10 +172,15 @@ a {
   background-color: #E9E9E9; }
 
 .header {
-  background-color: #08041A;
+  background-color: #1d092a;
+  background-image: url("/images/may2015/header.png");
+  background-position: 50% 0%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
+  color: white; }
+
+.intro {
+  background-color: #1d092a;
   color: white; }
 
 .monsters {
@@ -201,6 +211,9 @@ a {
   height: 500px; }
   .info .h1 {
     color: #4e5092; }
+  .info .h3 {
+    font-family: "Bariol Big", Sans-Serif;
+    color: #4e5092; }
 
 .textfield {
   width: 96%;
@@ -213,8 +226,8 @@ a {
   font-size: 1.5em;
   font-family: "Bariol Big", Sans-Serif;
   font-weight: 500;
-  color: #f1f1f1;
-  background-color: #5b4a89;
+  color: #FFF;
+  background-color: #fc4c6d;
   border-color: #FFF;
   margin-right: 25px;
   padding-left: 15px; }
@@ -230,8 +243,8 @@ a {
   font-family: "Bariol Big", Sans-Serif;
   font-size: 1.5em;
   font-weight: 500;
-  color: #ffffff;
-  background-color: #a1dbbd;
+  color: #4e5092;
+  background-color: #2add74;
   border-color: #FFF;
   margin-right: 25px;
   padding-left: 15px; }
@@ -241,19 +254,19 @@ a {
 
 ::-webkit-input-placeholder {
   /* WebKit browsers */
-  color: #8A8CB1; }
+  color: #FFF; }
 
 :-moz-placeholder {
   /* Mozilla Firefox 4 to 18 */
-  color: #8A8CB1; }
+  color: #FFF; }
 
 ::-moz-placeholder {
   /* Mozilla Firefox 19+ */
-  color: #8A8CB1; }
+  color: #FFF; }
 
 :-ms-input-placeholder {
   /* Internet Explorer 10+ */
-  color: #8A8CB1; }
+  color: #FFF; }
 
 .gameplay {
   background-color: #fff; }
@@ -345,13 +358,16 @@ background-repeat: no-repeat;
   background-repeat: no-repeat; }
 
 .footer {
-  background-color: #141813;
+  background-color: #16182c;
   color: #F1EEDD;
-  font-family: "Bariol Light", Sans-Serif;
-  font-size: 1.5em; }
-  .footer a {
+  font-family: "Bariol Big", Sans-Serif;
+  font-size: 1.5em;
+  color: #4e5092; }
+  .footer .links a {
     text-decoration: underline;
-    font-size: .7em; }
+    font-size: .7em;
+    margin-right: 20px;
+    margin-left: 20px; }
 
 .inline-image {
   display: inline-block; }

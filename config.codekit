@@ -10,8 +10,8 @@
 		"outputAbbreviatedPath": "\/min\/app-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"syntaxCheckerStyle": 0
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/eggnog.html": {
 		"fileType": 8192,
@@ -27,6 +27,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index-old.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2815,50 +2824,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/public\/bower_components\/vide\/bower.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/bower_components\/vide\/bower.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/public\/bower_components\/vide\/bower-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
-	"\/public\/bower_components\/vide\/dist\/jquery.vide.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/bower_components\/vide\/dist\/jquery.vide.js",
-		"outputAbbreviatedPath": "\/public\/bower_components\/vide\/dist\/min\/jquery.vide-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/public\/bower_components\/vide\/dist\/jquery.vide.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/bower_components\/vide\/dist\/jquery.vide.min.js",
-		"outputAbbreviatedPath": "\/public\/bower_components\/vide\/dist\/min\/jquery.vide.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/public\/bower_components\/vide\/package.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/public\/bower_components\/vide\/package.js",
-		"outputAbbreviatedPath": "\/public\/bower_components\/vide\/min\/package-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/public\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -3020,7 +2985,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/abstract.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/may2015\/awards2.png": {
 		"fileType": 32768,
@@ -3044,6 +3009,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/public\/images\/may2015\/awards3yellow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43036,
+		"inputAbbreviatedPath": "\/public\/images\/may2015\/awards3yellow.png",
+		"outputAbbreviatedPath": "\/public\/images\/may2015\/awards3yellow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/public\/images\/may2015\/DF_Presents_FullColor.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3053,7 +3029,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/DF_Presents_FullColor.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/may2015\/DF_Presents_Stamp.png": {
 		"fileType": 32768,
@@ -3064,7 +3040,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/DF_Presents_Stamp.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/may2015\/firstSection.png": {
 		"fileType": 32768,
@@ -3075,7 +3051,29 @@
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/firstSection.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/public\/images\/may2015\/footerMockup.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 184945,
+		"inputAbbreviatedPath": "\/public\/images\/may2015\/footerMockup.png",
+		"outputAbbreviatedPath": "\/public\/images\/may2015\/footerMockup.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/public\/images\/may2015\/header.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/public\/images\/may2015\/header.png",
+		"outputAbbreviatedPath": "\/public\/images\/may2015\/header.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/public\/images\/may2015\/houseinout.png": {
 		"fileType": 32768,
@@ -3086,7 +3084,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/houseinout.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/may2015\/KO-OP.png": {
 		"fileType": 32768,
@@ -3097,7 +3095,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/KO-OP.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/may2015\/levels.png": {
 		"fileType": 32768,
@@ -3119,7 +3117,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/newsletterSection.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/may2015\/newvideoconcept.png": {
 		"fileType": 32768,
@@ -3128,6 +3126,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/public\/images\/may2015\/newvideoconcept.png",
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/newvideoconcept.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/public\/images\/may2015\/samlogo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12924,
+		"inputAbbreviatedPath": "\/public\/images\/may2015\/samlogo.png",
+		"outputAbbreviatedPath": "\/public\/images\/may2015\/samlogo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -3229,7 +3238,7 @@
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/secondSection.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/public\/images\/may2015\/sonythumbnail2.png": {
 		"fileType": 32768,
@@ -3240,7 +3249,18 @@
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/sonythumbnail2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/public\/images\/may2015\/video.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53541,
+		"inputAbbreviatedPath": "\/public\/images\/may2015\/video.png",
+		"outputAbbreviatedPath": "\/public\/images\/may2015\/video.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/public\/images\/mtgbackground.png": {
 		"fileType": 32768,
