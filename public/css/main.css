@@ -173,7 +173,7 @@ a {
 
 .header {
   background-color: #1d092a;
-  background-image: url("/images/may2015/header.png");
+  background-image: url("/images/may2015/secondSection.png");
   background-position: 50% 0%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -191,6 +191,17 @@ a {
   height: 500px;
   color: #e092ff; }
   .monsters .h1 {
+    font-size: 1.7em; }
+
+.monsters-mobile {
+  background-color: #e8e8e8;
+  background-image: url("/images/may2015/firstSectionPhone2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 500px;
+  color: #e092ff; }
+  .monsters-mobile .h1 {
     font-size: 1.7em; }
 
 .web {

@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GNOG - Coming 2016</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="GNOG is a wondrous journey through a universe of visually stunning and playfully interactive monster heads">
+    <meta name="description" content="GNOG is a wondrous journey through a universe of visually stunning and playfully interactive monster heads. A KO-OP game, with support from Double Fine Productions.">
     <meta property="og:title" content="GNOG" /> 
     <meta property="og:site_name" content="GNOG"/>
     <meta property="og:image" content="http://presskit.ko-opmode.com/gnog/images/gnog-share.png" /> 
-    <meta property="og:description" content="GNOG is a wondrous journey through a universe of visually stunning and playfully interactive monster heads" /> 
+    <meta property="og:description" content="GNOG is a wondrous journey through a universe of visually stunning and playfully interactive monster heads. A KO-OP game, with support from Double Fine Productions." /> 
     <meta property="og:url" content="http://www.gnoggame.com/">
     <meta property="og:type" content="article">
     <meta property="fb:admins" content="13616068" />
@@ -17,17 +17,13 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@koopmode">
     <meta name="twitter:creator" content="@monsieureureka">
-    <meta name="twitter:title" content="GNOG is a wondrous journey through a universe of visually stunning and playfully interactive monster heads">
+    <meta name="twitter:title" content="GNOG is a wondrous journey through a universe of visually stunning and playfully interactive monster heads. A KO-OP game, with support from Double Fine Productions.">
     <meta name="twitter:description" content="Explore a myriad of unique interconnected heads and the worlds they carry within">
     <meta name="twitter:image:src" content="http://presskit.ko-opmode.com/gnog/images/gnog-share.png">
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <!-- Typekit 
-    <script src="//use.typekit.net/rii4gch.js"></script>
-    <script>try{Typekit.load();}catch(e){}</script>
-    -->
-    <!-- Bootstrap -->
 
+    <!-- core css -->
     <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
     <link href="/css/main.css" media="all" rel="stylesheet" type="text/css" />
     
@@ -92,10 +88,9 @@
 <div class="header">
   <div class="container">
     <div class="row">
-      <div class="col-xs-8 col-xs-offset-2 top-large-spacer bottom-large-spacer" align="center">
+      <div class="hidden-xs col-xs-8 col-xs-offset-2 top-large-spacer bottom-large-spacer" align="center">
           <div onclick="thevid=document.getElementById('thevideo'); thevid.style.display='block'; this.style.display='none'; document.getElementById('iframe').src = document.getElementById('iframe').src.replace('autoplay=0','autoplay=1'); ">
            <img src="/images/may2015/video.png" width="850px" class="img-responsive hidden-xs" style="cursor:pointer" />
-           <img src="/images/may2015/video.png" width="100%" class="img-responsive visisble-xs hidden-sm hidden-md hidden-lg top-xsmall-spacer" style="cursor:pointer" />
            </div>
             <div class="col-xs-12 embed-responsive embed-responsive-16by9" id="thevideo" style="display:none">
 
@@ -103,17 +98,23 @@
            </div>
       </div>
     </div>
+    <div class="visible-xs col-xs-12 top-med-spacer bottom-med-spacer" align="center">
+            <div class="col-xs-12 embed-responsive embed-responsive-16by9" id="thevideomobile">
+
+           <iframe id="iframe" src="//www.youtube.com/embed/lzTWg0sGVh4?autoplay=0&showinfo=0&controls=2&rel=0" frameborder="0" allowscriptaccess="always" allowfullscreen="true"></iframe>
+           </div>
+      </div>
   </div>
 </div>
 
 <!-- intro text -->
 <div class="intro">
   <div class="container">
-    <div class="row top-med-spacer bottom-med-spacer">
+    <div class="row top-small-spacer bottom-small-spacer">
        <div class="col-xs-12 bottom-med-spacer" align="center">
           <p class="h1 text-center"><span id="one">G</span><span id="two">N</span><span id="three">O</span><span id="four">G</span> is Launching on Playstation</p>
         <p class="h2">Coming 2016</p>
-         <img src="/images/may2015/awards3yellow.png" width="900px" class="top-med-spacer img-responsive">
+         <img src="/images/may2015/awards3yellow.png" width="900px" class="top-med-spacer img-responsive hidden-xs">
       </div>
     </div>
   </div>
@@ -121,14 +122,24 @@
 
 
 <!-- Top Description -->
-<div class="monsters">
+<div class="monsters hidden-xs">
   <div class="container vert-center">
     <div class="row">
     <div class="col-xs-12">
     <div class="col-sm-6 col-sm-offset-3 col-xs-12" align="center">
-      <p class="h1">GNOG is about exploring giant monsters and their inner worlds</p>
-      <img src="/images/may2015/firstSection.png" class="img-responsive visible-xs">
-      
+      <p class="h1">GNOG is about exploring giant monsters and their inner worlds</p>      
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="monsters-mobile visible-xs">
+  <div class="container vert-center">
+    <div class="row">
+    <div class="col-xs-12">
+    <div class="col-sm-6 col-sm-offset-3 col-xs-12" align="center">
+      <p class="h1">GNOG is about exploring giant monsters and their inner worlds</p>      
     </div>
     </div>
     </div>
@@ -168,9 +179,10 @@
         </div>
       </div> -->
       <div class="col-sm-6 col-sm-offset-3 col-xs-12" align="center">
-      <p class="h1">Launching on <span id="two">Playstation</span> in 2016 <br> and coming to <span id="three">Steam</span> and <span id="one">iOS</span> later</p> 
+      <p class="h1">Launching on <span id="two">Playstation</span> in 2016  and coming to <span id="three">Steam</span> and <span id="one">iOS</span> later</p> 
       <p class="h3 ">Subscribe to the <span id="two">newsletter</span> for monthly updates, and new platform announcements</p>
       </div>
+
      <div class="col-sm-4 col-sm-offset-4 col-xs-12" align="right">
       <form accept-charset="UTF-8" action="mailing_list/subscribe" class="mail-form top-med-spacer" data-remote="true" id="mail-form" method="post">
                     <input class="textfield" id="email" name="email" placeholder="Email..." type="text" />
