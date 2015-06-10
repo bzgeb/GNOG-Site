@@ -1,6 +1,6 @@
 $header-font: "Bariol Big", Sans-Serif;
 $header2-font: "Bariol Light", Sans-Serif;
-$header-image: url('/images/mtgbackground.png');
+$header-image: url('/images/may2015/secondSection.png');
 $monsters-text: #e092ff;
 $body-font: "Bariol Big";
 $header-bg-color: #1d092a;
@@ -66,7 +66,7 @@ a {
 .header {
 
 	background-color: $header-bg-color;
-	background-image: url('/images/may2015/header.png');
+	background-image: $header-image;
   background-position: 50% 0%;
   background-size: cover;
 	background-repeat: no-repeat;
@@ -91,6 +91,19 @@ a {
 	color: $monsters-text;
   .h1 {
 	font-size: 1.7em;
+  }
+}
+
+.monsters-mobile {
+  background-color: #e8e8e8;
+  background-image: url('/images/may2015/firstSectionPhone2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 500px;
+  color: $monsters-text;
+  .h1 {
+  font-size: 1.7em;
   }
 }
 

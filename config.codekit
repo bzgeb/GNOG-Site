@@ -2976,17 +2976,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/public\/images\/may2015\/abstract.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 250744,
-		"inputAbbreviatedPath": "\/public\/images\/may2015\/abstract.png",
-		"outputAbbreviatedPath": "\/public\/images\/may2015\/abstract.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/public\/images\/may2015\/awards2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3031,17 +3020,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/public\/images\/may2015\/DF_Presents_Stamp.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.2545e+06,
-		"inputAbbreviatedPath": "\/public\/images\/may2015\/DF_Presents_Stamp.png",
-		"outputAbbreviatedPath": "\/public\/images\/may2015\/DF_Presents_Stamp.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/public\/images\/may2015\/firstSection.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3053,16 +3031,27 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/public\/images\/may2015\/footerMockup.png": {
+	"\/public\/images\/may2015\/firstSectionPhone.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 184945,
-		"inputAbbreviatedPath": "\/public\/images\/may2015\/footerMockup.png",
-		"outputAbbreviatedPath": "\/public\/images\/may2015\/footerMockup.png",
+		"initialSize": 689746,
+		"inputAbbreviatedPath": "\/public\/images\/may2015\/firstSectionPhone.png",
+		"outputAbbreviatedPath": "\/public\/images\/may2015\/firstSectionPhone.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
+		},
+	"\/public\/images\/may2015\/firstSectionPhone2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 194419,
+		"inputAbbreviatedPath": "\/public\/images\/may2015\/firstSectionPhone2.png",
+		"outputAbbreviatedPath": "\/public\/images\/may2015\/firstSectionPhone2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/public\/images\/may2015\/header.png": {
 		"fileType": 32768,
@@ -3086,28 +3075,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/public\/images\/may2015\/KO-OP.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7288,
-		"inputAbbreviatedPath": "\/public\/images\/may2015\/KO-OP.png",
-		"outputAbbreviatedPath": "\/public\/images\/may2015\/KO-OP.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/public\/images\/may2015\/levels.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/public\/images\/may2015\/levels.png",
-		"outputAbbreviatedPath": "\/public\/images\/may2015\/levels.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/public\/images\/may2015\/newsletterSection.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3115,17 +3082,6 @@
 		"initialSize": 95448,
 		"inputAbbreviatedPath": "\/public\/images\/may2015\/newsletterSection.png",
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/newsletterSection.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/public\/images\/may2015\/newvideoconcept.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/public\/images\/may2015\/newvideoconcept.png",
-		"outputAbbreviatedPath": "\/public\/images\/may2015\/newvideoconcept.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
