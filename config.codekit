@@ -3053,17 +3053,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/public\/images\/may2015\/header.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
-		"inputAbbreviatedPath": "\/public\/images\/may2015\/header.png",
-		"outputAbbreviatedPath": "\/public\/images\/may2015\/header.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/public\/images\/may2015\/houseinout.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3185,6 +3174,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/public\/images\/may2015\/secondSection-blur.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 195164,
+		"inputAbbreviatedPath": "\/public\/images\/may2015\/secondSection-blur.png",
+		"outputAbbreviatedPath": "\/public\/images\/may2015\/secondSection-blur.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/images\/may2015\/secondSection.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3211,12 +3211,12 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 53541,
+		"initialSize": 86487,
 		"inputAbbreviatedPath": "\/public\/images\/may2015\/video.png",
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/video.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/public\/images\/mtgbackground.png": {
 		"fileType": 32768,
