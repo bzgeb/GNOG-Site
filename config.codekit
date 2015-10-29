@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19033",
+"creatorBuild": "19076",
 "files": {
 	"\/app.js": {
 		"fileType": 64,
@@ -2824,6 +2824,244 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/public\/bower_components\/magnific-popup\/bower.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/bower.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/bower-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/public\/bower_components\/magnific-popup\/composer.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/composer.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/composer-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/public\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/dist\/min\/jquery.magnific-popup-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/dist\/jquery.magnific-popup.min.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/dist\/min\/jquery.magnific-popup.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/magnific-popup\/dist\/magnific-popup.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/dist\/magnific-popup.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/public\/bower_components\/magnific-popup\/Gruntfile.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/min\/Gruntfile-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/magnific-popup\/magnific-popup.jquery.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/magnific-popup.jquery.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/magnific-popup.jquery-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/public\/bower_components\/magnific-popup\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/public\/bower_components\/magnific-popup\/README.md": {
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/README.md",
+		"maskEmailAddresses": 1,
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/README.html",
+		"outputFormat": 0,
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/public\/bower_components\/magnific-popup\/src\/css\/_settings.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/css\/_settings.scss",
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/css\/_settings.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/public\/bower_components\/magnific-popup\/src\/css\/main.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/css\/main.scss",
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/css\/main.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/public\/bower_components\/magnific-popup\/src\/js\/ajax.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/js\/ajax.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/js\/min\/ajax-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/magnific-popup\/src\/js\/core.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/js\/core.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/js\/min\/core-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/magnific-popup\/src\/js\/fastclick.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/js\/fastclick.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/js\/min\/fastclick-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/magnific-popup\/src\/js\/gallery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/js\/gallery.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/js\/min\/gallery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/magnific-popup\/src\/js\/iframe.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/js\/iframe.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/js\/min\/iframe-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/magnific-popup\/src\/js\/image.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/js\/image.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/js\/min\/image-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/magnific-popup\/src\/js\/inline.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/js\/inline.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/js\/min\/inline-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/magnific-popup\/src\/js\/retina.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/js\/retina.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/js\/min\/retina-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/public\/bower_components\/magnific-popup\/src\/js\/zoom.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/js\/zoom.js",
+		"outputAbbreviatedPath": "\/public\/bower_components\/magnific-popup\/src\/js\/min\/zoom-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/public\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -2954,6 +3192,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/public\/images\/KO_OP-logo-dark.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32510,
+		"inputAbbreviatedPath": "\/public\/images\/KO_OP-logo-dark.png",
+		"outputAbbreviatedPath": "\/public\/images\/KO_OP-logo-dark.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/images\/logoending.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3024,18 +3273,18 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 135639,
 		"inputAbbreviatedPath": "\/public\/images\/may2015\/firstSection.png",
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/firstSection.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/public\/images\/may2015\/firstSectionPhone.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 689746,
+		"initialSize": 244340,
 		"inputAbbreviatedPath": "\/public\/images\/may2015\/firstSectionPhone.png",
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/firstSectionPhone.png",
 		"outputPathIsOutsideProject": 0,
@@ -3046,7 +3295,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 194419,
+		"initialSize": 46810,
 		"inputAbbreviatedPath": "\/public\/images\/may2015\/firstSectionPhone2.png",
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/firstSectionPhone2.png",
 		"outputPathIsOutsideProject": 0,
@@ -3068,23 +3317,23 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 95448,
+		"initialSize": 42021,
 		"inputAbbreviatedPath": "\/public\/images\/may2015\/newsletterSection.png",
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/newsletterSection.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/public\/images\/may2015\/samlogo.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 12924,
+		"initialSize": 7908,
 		"inputAbbreviatedPath": "\/public\/images\/may2015\/samlogo.png",
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/samlogo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/public\/images\/may2015\/screenshot1.png": {
 		"fileType": 32768,
@@ -3189,29 +3438,29 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 0,
+		"initialSize": 192003,
 		"inputAbbreviatedPath": "\/public\/images\/may2015\/secondSection.png",
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/secondSection.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/public\/images\/may2015\/sonythumbnail2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 537349,
+		"initialSize": 154211,
 		"inputAbbreviatedPath": "\/public\/images\/may2015\/sonythumbnail2.png",
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/sonythumbnail2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/public\/images\/may2015\/video.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 86487,
+		"initialSize": 29926,
 		"inputAbbreviatedPath": "\/public\/images\/may2015\/video.png",
 		"outputAbbreviatedPath": "\/public\/images\/may2015\/video.png",
 		"outputPathIsOutsideProject": 0,
@@ -3228,6 +3477,105 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/public\/images\/oct2015\/bug.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 141914,
+		"inputAbbreviatedPath": "\/public\/images\/oct2015\/bug.png",
+		"outputAbbreviatedPath": "\/public\/images\/oct2015\/bug.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/oct2015\/coin.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 195810,
+		"inputAbbreviatedPath": "\/public\/images\/oct2015\/coin.png",
+		"outputAbbreviatedPath": "\/public\/images\/oct2015\/coin.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/oct2015\/fireplace.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 247801,
+		"inputAbbreviatedPath": "\/public\/images\/oct2015\/fireplace.png",
+		"outputAbbreviatedPath": "\/public\/images\/oct2015\/fireplace.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/oct2015\/frog.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61658,
+		"inputAbbreviatedPath": "\/public\/images\/oct2015\/frog.png",
+		"outputAbbreviatedPath": "\/public\/images\/oct2015\/frog.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/oct2015\/jelly.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71139,
+		"inputAbbreviatedPath": "\/public\/images\/oct2015\/jelly.png",
+		"outputAbbreviatedPath": "\/public\/images\/oct2015\/jelly.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/oct2015\/log.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 287341,
+		"inputAbbreviatedPath": "\/public\/images\/oct2015\/log.png",
+		"outputAbbreviatedPath": "\/public\/images\/oct2015\/log.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/oct2015\/moose.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 233674,
+		"inputAbbreviatedPath": "\/public\/images\/oct2015\/moose.png",
+		"outputAbbreviatedPath": "\/public\/images\/oct2015\/moose.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/oct2015\/sub.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 123089,
+		"inputAbbreviatedPath": "\/public\/images\/oct2015\/sub.png",
+		"outputAbbreviatedPath": "\/public\/images\/oct2015\/sub.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/oct2015\/whale.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 134385,
+		"inputAbbreviatedPath": "\/public\/images\/oct2015\/whale.png",
+		"outputAbbreviatedPath": "\/public\/images\/oct2015\/whale.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/public\/images\/playstation.png": {
 		"fileType": 32768,
@@ -4223,10 +4571,6 @@
 			}
 		},
 	"jsLintFlags2": {
-		"ass": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"bitwise": {
 			"active": 0,
 			"flagValue": -1
@@ -4235,15 +4579,7 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"closure": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"continue": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"debug": {
+		"couch": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -4251,75 +4587,27 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"eqeq": {
+		"es6": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"evil": {
+		"eval": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"forin": {
+		"for": {
 			"active": 0,
 			"flagValue": -1
-			},
-		"indent": {
-			"active": 0,
-			"flagValue": 4
 			},
 		"maxlen": {
 			"active": 0,
 			"flagValue": 150
 			},
-		"newcap": {
-			"active": 0,
-			"flagValue": -1
-			},
 		"node": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"nomen": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"plusplus": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"properties": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"regexp": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"rhino": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sloppy": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"stupid": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"sub": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"todo": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"unparam": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"vars": {
+		"this": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -4420,7 +4708,9 @@
 	"typescriptAutoOutputPathStyle": 2,
 	"typescriptCreateDeclarationFile": 0,
 	"typescriptCreateSourceMap": 0,
+	"typescriptJSXMode": 0,
 	"typescriptMinifyOutput": 0,
+	"typescriptModuleResolutionType": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
 	"typescriptPreserveConstEnums": 0,

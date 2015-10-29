@@ -1,54 +1,21 @@
-body {
-	padding: 100px 20px;
+/* Float */
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
 }
-
-a {
-	
-	display: inline-block; width: 100px; height: 100px;
-	border-width: 50px;
-	border-color: rgba(0,0,0,0);
-	
-	border-radius: 100%;
-	-moz-border-radius: 100%;
-	-webkit-border-radius: 100%;
-	
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	
-	-webkit-transition: 0.5s ease;
-	-moz-transition: 0.5s ease;
-	-ms-transition: 0.5s ease;
-	-o-transition: 0.5s ease;
-	transition: 0.5s ease;
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-4px);
+  transform: translateY(-4px);
 }
-
-a:hover {
-	border-width: 0;
-	border-color: rgba(0, 0, 0, 0.5);
-}
-
-.one{border-style: solid;}
-.two{border-style: dashed;}
-.three{border-style: dotted;}
-
-.yon {border: 50px solid rgba(0, 0, 0, 0.7);}
-.goo {border: 50px dashed rgba(0, 0, 0, 0.7);}
-.rok {border: 50px dotted rgba(0, 0, 0, 0.7);}
-.ryk {border: 50px double rgba(0, 0, 0, 0.7);}
-.yon:hover{border: 1px solid rgba(0, 0, 0, 0.7);}
-.goo:hover{border: 1px dashed rgba(0, 0, 0, 0.7);}
-.rok:hover{border: 1px dotted rgba(0, 0, 0, 0.7);}
-.ryk:hover{border: 1px double rgba(0, 0, 0, 0.7);}
-
-.x7, .x8, .x9 {
-	border-radius: 0;
-	-moz-border-radius: 0;
-	-webkit-border-radius: 0;
-}
-.x7 {border: 50px solid rgba(0, 0, 0, 0.7);}
-.x8 {border: 50px dashed rgba(0, 0, 0, 0.7);}
-.x9 {border: 50px dotted rgba(0, 0, 0, 0.7);}
-.x7:hover {border: 1px solid rgba(0, 0, 0, 0.7);}
-.x8:hover {border: 1px dashed rgba(0, 0, 0, 0.7);}
-.x9:hover {border: 1px dotted rgba(0, 0, 0, 0.7);}
