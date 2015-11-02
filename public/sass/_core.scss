@@ -1,9 +1,9 @@
 body {
 	/* Prevent elements from flickering due to CSS Transforms */
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility:    hidden;
-	-ms-backface-visibility:     hidden;
-	-webkit-transform: translate3d(0, 0, 0);
+	// -webkit-backface-visibility: hidden;
+	// -moz-backface-visibility:    hidden;
+	// -ms-backface-visibility:     hidden;
+	// -webkit-transform: translate3d(0, 0, 0);
 	overflow-x: hidden;
 	-webkit-font-smoothing: antialiased;
 }
