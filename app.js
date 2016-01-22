@@ -6,8 +6,8 @@ try {
 } catch (error) {
   //ignore 
 }
-var express = require('express');
-/*  , MailChimpAPI = require('mailchimp').MailChimpAPI; */
+var express = require('express')
+  , MailChimpAPI = require('mailchimp').MailChimpAPI;
 
 var bodyParser = require('body-parser');
 var multer = require('multer'); 
@@ -17,11 +17,11 @@ var mc_newsletter_id = process.env.MC_NEWSLETTER_ID;
 
 var mc_interest_group = "GNOG Newsletter";
 
-/*try { 
+try { 
     var api = new MailChimpAPI(mc_api_key, { version : '1.3', secure : false });
 } catch (error) {
     console.log(error.message);
-}*/
+}
 
 /**
  * App.
@@ -65,7 +65,7 @@ app.post('/mailing_list/subscribe_general', function (req, res) {
 
 
 // Subscribe to our mailing list
-/*function subscribe(email, groups, res) {
+function subscribe(email, groups, res) {
   api.listSubscribe({ id: mc_newsletter_id, 
                       email_address: email,
                       merge_vars: {EMAIL: email,
@@ -108,4 +108,4 @@ app.post('/mailing_list/subscribe_general', function (req, res) {
       }
     });
 };
-*/
+
