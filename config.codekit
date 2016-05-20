@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19076",
+"creatorBuild": "19115",
 "files": {
 	"\/app.js": {
 		"fileType": 64,
@@ -3467,6 +3467,105 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/images\/may2016\/gnog-promo-footer.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93718,
+		"inputAbbreviatedPath": "\/public\/images\/may2016\/gnog-promo-footer.png",
+		"outputAbbreviatedPath": "\/public\/images\/may2016\/gnog-promo-footer.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/may2016\/gnog-promo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89286,
+		"inputAbbreviatedPath": "\/public\/images\/may2016\/gnog-promo.png",
+		"outputAbbreviatedPath": "\/public\/images\/may2016\/gnog-promo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/may2016\/paper-toy-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 55854,
+		"inputAbbreviatedPath": "\/public\/images\/may2016\/paper-toy-1.png",
+		"outputAbbreviatedPath": "\/public\/images\/may2016\/paper-toy-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/may2016\/paper-toy-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58153,
+		"inputAbbreviatedPath": "\/public\/images\/may2016\/paper-toy-2.png",
+		"outputAbbreviatedPath": "\/public\/images\/may2016\/paper-toy-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/may2016\/paper-toy-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65822,
+		"inputAbbreviatedPath": "\/public\/images\/may2016\/paper-toy-3.png",
+		"outputAbbreviatedPath": "\/public\/images\/may2016\/paper-toy-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/may2016\/paper-toy-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84802,
+		"inputAbbreviatedPath": "\/public\/images\/may2016\/paper-toy-4.png",
+		"outputAbbreviatedPath": "\/public\/images\/may2016\/paper-toy-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/may2016\/paper-toy-5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60026,
+		"inputAbbreviatedPath": "\/public\/images\/may2016\/paper-toy-5.png",
+		"outputAbbreviatedPath": "\/public\/images\/may2016\/paper-toy-5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/may2016\/paper-toy-6.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47582,
+		"inputAbbreviatedPath": "\/public\/images\/may2016\/paper-toy-6.png",
+		"outputAbbreviatedPath": "\/public\/images\/may2016\/paper-toy-6.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/public\/images\/may2016\/patterngrid.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17857,
+		"inputAbbreviatedPath": "\/public\/images\/may2016\/patterngrid.png",
+		"outputAbbreviatedPath": "\/public\/images\/may2016\/patterngrid.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/images\/mtgbackground.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4182,8 +4281,16 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"no_plusplus": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"no_stand_alone_at": {
@@ -4192,6 +4299,10 @@
 			},
 		"no_tabs": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"no_throwing_strings": {

@@ -180,23 +180,12 @@ a {
     text-decoration: underline; }
 
 .header {
-  overflow: hidden;
-  position: relative;
+  background: url("/images/may2016/gnog-promo.png") no-repeat center center;
+  background-size: cover;
   background-repeat: no-repeat;
   color: white; }
   .header p {
     line-height: 1; }
-  .header::before {
-    content: ' ';
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: url("/images/may2016/gnog-promo.png") no-repeat center center;
-    background-size: cover;
-    will-change: transform;
-    z-index: -1; }
 
 .intro {
   background-color: #1d092a;
