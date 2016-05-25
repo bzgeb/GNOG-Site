@@ -12,6 +12,19 @@ a {
 	color: #FFF;
 }
 
+.alert {
+  font-family: "Bariol Big";
+  background-color: #f6f16c;
+  color: #6e0ea7;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  border: 0px;
+  a {
+    color: #f60e4c;
+    text-decoration: underline;
+  }
+
+}
 
 .h1 {
 	font-family: $header-font;
