@@ -2,7 +2,7 @@ $bg-color-home: #323432;
 $bg-color-store: #FFF;
 $link-color: #3D3983;
 $link-hover-color: #898989;
-$navbar-bg-color: #E9E9E9 ;
+$navbar-bg-color: #1b1e38 ;
 
 
 /*Navbar styling*/
@@ -22,42 +22,90 @@ $navbar-bg-color: #E9E9E9 ;
 // }
 
 .icon-bar {
-	background-color: white;
+	margin-top: 5px;
+	background-color: #ff4a6b;
 }
 
 .navbar-brand {
+	a {
+		padding-top: 0px!important;
+	}
 	img {
-		padding-top: 7px;
+		padding-top: 10px!important;
 	}
-	.ko-op {
-		padding-top: 12px;
+	// .ko-op {
+	// 	// padding-top: 12px;
+	// }
+}
+
+.navbtn {
+	background-color: $navbar-bg-color;
+	border-color: #77FEED;
+	border-width: 1px;
+	border-radius: 5px;
+	font-size: 1em;
+	height: 35px;
+	width: 140px;
+	text-align: center;
+	margin-top: -10px;
+	padding-bottom: 30px;
+	margin-right: 20px!important;
+
+	a {
+		color: #fc4c6d;
+
 	}
+}
+
+.navbtn:hover {
+	border-color: #fc4c6d;
+	 a {
+	 	color: #77FEED!important;
+	 }
 }
 
 .navbar-custom {
 	font-family: "Bariol Big";	
-	font-size: .9em;
+	font-size: 1em;
+	// height: 100px;
+	// padding-bottom: 10px;
 	margin-bottom: 0px;
 	border-radius: 0;
 	
 
 	a {
 		text-decoration: none;
-		margin-right: 5px;
-		padding-top: 4px !important;
+		margin-right: 10px;
+		padding-top: 0px !important;
 		// Remove this for collapsed navbar
 		margin-bottom: 0px; 
-		color: $link-color !important;
+
+		// color: $link-color !important;
+
 	}
+
+	li {
+		margin-top: 10px;
+	}
+
+	#preorder {
+		color: #ff4a6b!important;
+		font-family: "Bariol Big"!important;
+	}
+
+	#preorder:hover {
+		color: #d23f59!important;
+	}
+
 	a:hover {
- 	color: $link-hover-color !important;
  	background-color: transparent !important; 
 
 	}
 
 	.twitter-follow-button	{
-		margin-top: 2px;
-		margin-right: 50px;
+		
+		margin-top: -5px;
+		margin-right: 15px;
 		margin-left: 15px;
 	}
 
@@ -68,23 +116,6 @@ $navbar-bg-color: #E9E9E9 ;
 	/*text-decoration: underline;*/
 }
 
-// .nav.nav-center {
-//     display: inline-block;
-//     left: 0;
-//     right: 0;
-//     margin:0;
-//     float:none;
-// }
-
-// .navbar-inner{
-//     text-align:center;
-// }
-
-
-
-//     .navbar-nav{
-//         float:none;
-//         margin: 0 auto;
-//         display: table;
-//         table-layout: fixed;
-//     }
+.hoverfix:hover {
+	color: white!important;
+}

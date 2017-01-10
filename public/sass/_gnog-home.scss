@@ -1,15 +1,23 @@
 $header-font: "Bariol Big", Sans-Serif;
-$header2-font: "Bariol Light", Sans-Serif;
+$header2-font: "Bariol Regular", Sans-Serif;
 $header-image: url('/images/may2016/gnog-promo.png');
 $monsters-text: #7a37b2;
-$body-font: "Bariol Big";
+$body-font: "Bariol Regular";
 $header-bg-color: #1d092a;
 $footer-bg-color: #111222;
 $footer-bg-image: url('/images/may2016/gnog-promo-footer.png');
 
+body {
+  font-family: $body-font;
+}
 
 a {
 	color: #FFF;
+  text-decoration: underline;
+}
+
+strong {
+  font-family: $header-font;
 }
 
 .alert {
@@ -33,15 +41,15 @@ a {
 }
 
 .h2 {
-	font-family: $header-font;
+	font-family: $header2-font;
   font-weight: 500;
-  // font-size: 1.5em;
+  // font-size: 2em;
   // color: #FFF;
 }
 
 .h3 {
-  font-family: $header-font;
-  color: #FFF;
+  font-family: $header2-font;
+  
 }
 
  #one {
@@ -75,7 +83,7 @@ a {
 }
 
 .awards {
-  background-color: $navbar-bg-color;
+  // background-color: $navbar-bg-color;
 }
 
 .papertoys {
@@ -91,47 +99,346 @@ a {
     text-decoration: underline;
   }
 }
+// mobile stylings
 
-.header {
-p {
-  line-height: 1;
+
+@media (max-width: 979px) {
+  body {
+    // font-size: 1em;
+  }
+  .header {
+    background-image: url('/images/release/particle-bg.png')!important;
+    height: auto!important;
+    img {
+      padding-top: 20px!important;
+    }
+    .trailerbutt {
+      margin-left: -10px!important;
+      width: 200px!important;
+    }
+    .pre-order-btn {
+      width: 200px!important;
+      margin-left: -10px!important;
+    }
+    .pre2-btn {
+      // width: 200px;
+    }
+    .info {
+      height: auto!important;
+    }
+  }
 }
 
-	// background-color: $header-bg-color;
+// end mobile styling
 
- // overflow: hidden; // added for pseudo-element
- //  position: relative; // added for pseudo-element
+.pre2-btn {
+      // width: 200px;
+      background: #FF5E4D;
+  color: white;
+  border-color: #C93D5F;
+  border-width: 3px;
+  border-radius: 10px;
+  font-family: $header2-font;
+  /* Watch the trailer: */
+  // font-family: $headline-font;
+  letter-spacing: 0px;
+  font-size: 1em;
+    }
 
- //  // Fixed-position background image
- //  &::before {
- //    content: ' ';
- //    position: fixed; // instead of background-attachment
- //    width: 100%;
- //    height: 100%;
- //    top: 0;
- //    left: 0;
-    background: url('/images/may2016/gnog-promo.png') no-repeat center center;
-    background-size: cover;
-  //   will-change: transform; // creates a new paint layer
-  //   z-index: -1;
-  // }
+.header {
+  img {
+    padding-top: 400px;
+  }
+p {
+  line-height: 1;
+  font-size: 2.5em;
+  color: #4e4e95;
+}
 
-  // // background-image: $header-image;
-  // // background-position: 50% 0%;
-  // // background-size: cover;
-  // // background-attachment: fixed;
+  height: 1400px;
+  background: url('/images/release/headerimage2.png');
+  background-position: center, center;
+  background-size: cover;
 	background-repeat: no-repeat;
-	color: white;
+	background-color: #FFF;
+  color: white;
+  .ps4-preorder {
+    font-size: 1.5em!important;
+    font-family: $header2-font;
+  }
+  a {
+    color: #4e4e95;
+    text-decoration: underline;
+    font-family: "Bariol Big";
+  }
+  #EU {
+    font-size: .8em;
+  }
+
+}
+
+.sub-header {
+  background-color: #071126;
+  background-image: url('/images/release/boxbg.png');
+  background-size: cover;
+  background-position: center center;
+  color: #a4f1fc;
+  .h2 {
+    color: #a4f1fc;
+    font-size: 2.5em;
+  }
+  .quote {
+    em {
+      color: #a4f1fc;
+    }
+
+    #press {
+      color: #ddeb9f;
+    }
+
+    #and {
+      color: #caa6fc;
+    }
+    strong {
+      color: #caa6fc;
+    }
+    font-family: $header2-font;
+    color: #caa6fc;
+  }
+}
+
+.psvr {
+  background-image: url('/images/release/nickvr.jpg');
+  background-size: cover;
+  color: white;
+  font-family: $header2-font;
+
+  p {
+    line-height: 1.2em;
+    font-size: 1.2em;
+  }
+  .h2 {
+    font-size: 2.5em;
+  }
+  .quote {
+    color: #58daff;
+  }
 
 
 }
 
 .intro {
-  background-color: #1d092a;
-  color: white;
+  background-image: url('/images/release/synthbg.png');
+  background-size: cover;
+  background-position: top;
+  background-color: #39135a;
+  color: #a4f1fc;
+  p {
+    line-height: 1em;
+  }
+  .h2 {
+    font-size: 2.5em;
+    span:nth-child(1) {
+      color: #caa6fc;
+
+    }
+    span:nth-child(2) {
+      color: #a4f1fc;
+      
+    }
+    span:nth-child(3) {
+      color: #ddeb9f;
+      
+    }
+  }
+  .bullet {
+    p {
+      font-size: 1.1em;
+
+    }
+    p:nth-child(1) {
+      color: #ddeb9f;
+    }
+     p:nth-child(2) {
+      color: #caa6fc;
+    }
+     p:nth-child(3) {
+      color: #caa6fc;
+    }
+    p:nth-child(4) {
+      color: #ddeb9f;
+    }
+    p:nth-child(5) {
+      color: #a4f1fc;
+    }
+    p:nth-child(6) {
+      color: #ddeb9f;
+    }
+    p:nth-child(7) {
+      color: #ddeb9f;
+    }
+    p:nth-child(8) {
+      color: #ddeb9f;
+    }
+    p:nth-child(9) {
+      color: #caa6fc;
+    }
+  }
+}
+
+.unique {
+  background-color: #fff;
+  color: #916cff;
+  .h2 {
+    font-size: 2.5em;
+  }
+}
+
+.synth-section {
+  background-image: url('/images/release/synth-section2.png');
+  background-color: #e1e1e1;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #926eff;
+  p {
+    line-height: 1em;
+  }
+  .h2 {
+    font-size: 2.5em;
+  }
+
+  .synth-btn {
+    background: #e1e1e1;
+  border-color: #ff415a;
+  color: #ff415a;
+  border-width: 3px;
+  border-radius: 10px;
+  width: 220px;
+  height: 70px;
+  font-family: $header2-font;
+  margin-right: 10px;
+  /* Watch the trailer: */
+  // font-family: $headline-font;
+  font-size: 1.5em;
+  letter-spacing: 0px;
+  // styling to make button appear non-clickable
+  cursor: default;
+  }
+  .synth-btn:active {
+  -moz-box-shadow:    inset 0 0 0px white;
+  -webkit-box-shadow: inset 0 0 0px white;
+  box-shadow:         inset 0 0 0px white;
+}
+  .synth-btn:hover {
+  color: #ff415a;
+  
+}
+.synth-btn:focus {
+  outline: none;
+}
 }
 
 
+
+.sub-section {
+  background-image: url('/images/release/sub-section.png');
+  background-size: cover;
+  background-position: center;
+  background-color: #131f38;
+  color: #ff9063;
+  p {
+    line-height: 1em;
+  }
+    .h2 {
+    font-size: 2.5em;
+  }
+  .sub-btn {
+  background: #131f38;
+  border-color: #ff9063;
+  border-width: 3px;
+  border-radius: 10px;
+  width: 220px;
+  height: 70px;
+  font-family: $header2-font;
+  margin-right: 10px;
+  /* Watch the trailer: */
+  // font-family: $headline-font;
+  font-size: 1.5em;
+  letter-spacing: 0px;
+  cursor: default;
+  }
+  .sub-btn:active {
+  -moz-box-shadow:    inset 0 0 0px white;
+  -webkit-box-shadow: inset 0 0 0px white;
+  box-shadow:         inset 0 0 0px white;
+}
+  .sub-btn:hover {
+  color: #ff9063;
+  
+}
+.sub-btn:focus {
+  outline: none;
+}
+}
+
+
+.space-section {
+  background-image: url('/images/release/vrtx-section.png');
+  background-size: cover;
+  background-position: center;
+  background-color: #1bd387 ;
+  color: #293784;
+   p {
+    line-height: 1em;
+  }
+    .h2 {
+    font-size: 2.5em;
+  }
+  .space-btn {
+  background: #1bd387;
+  border-color: #293784;
+  border-width: 3px;
+  border-radius: 10px;
+  width: 220px;
+  height: 70px;
+  font-family: $header2-font;
+  margin-right: 10px;
+  /* Watch the trailer: */
+  // font-family: $headline-font;
+  font-size: 1.5em;
+  letter-spacing: 0px;
+  cursor: default;
+  }
+  .space-btn:active {
+  -moz-box-shadow:    inset 0 0 0px white;
+  -webkit-box-shadow: inset 0 0 0px white;
+  box-shadow:         inset 0 0 0px white;
+}
+  .space-btn:hover {
+  color: #293784;
+  
+}
+.space-btn:focus {
+  outline: none;
+}
+}
+
+
+.comingSoon {
+
+  font-size: 1.2em;
+  color: #ff415a;
+  .h2 {
+    font-size: 2.5em;
+  }
+
+}
+
+.popup-gallery {
+  padding-left: 0px!important;
+  padding-right: 0px!important;
+}
 
 .monsters {
   background-color: #FFF;
@@ -165,16 +472,52 @@ p {
 }
 
 .screenshots {
+   font-size: 1.2em;
+  color: #4e4e95;
+  .h2 {
+    font-size: 2.5em;
+  }
+  
   .h1 {
     color: #FF5E4D;
   }
+  background-image: url('/images/release/gnog-particles.png');
+  background-size: 70%;
+  background-repeat: repeat;
+
+  background-color: white;
   // background-image: url('/images/may2015/gnogborder.svg'); 
   // background-repeat: no-repeat;
   // background-size: cover;
   // background-position: 50% 00%;
-  background-image: linear-gradient(-180deg, #F0E582 0%, #ABFAE9 100%);
+  // background-image: linear-gradient(-180deg, #F0E582 0%, #ABFAE9 100%);
 
+  a {
+    color: #ff415a;
+    font-family: "Bariol Big"
+  }
+
+  .pre-btn {
+  background: #ad7fff;
+border-color: #52e897;
+border-width: 3px;
+border-radius: 10px;
+margin-top: 15px;
+margin-bottom: 15px;
+width: auto;
+height: 70px;
+font-family: $header2-font;
+/* Watch the trailer: */
+// font-family: $headline-font;
+font-size: 1.5em;
+color: #FFF;
+letter-spacing: 0px;
 }
+  .pre-btn:hover {
+  color: #54f998;
+}
+}
+
 
 #woodrow {
   .h1 {
@@ -183,15 +526,21 @@ p {
 }
 
 .info {
-  background-image: url('/images/may2015/newsletterSection.png');
-  background-size: cover;
-  background-position: 50% 50%;
-  height: 500px;
+  background-color: white;
+  background-image: url('/images/release/particle-bg.png');
+  // background-size: cover;
+  // background-position: 50% 50%;
+  // height: 500px;
   .h1 {
     color: #4e5092;
+    font-family: $header2-font;
+    font-size: 2.2em;
+  }
+  span {
+    font-family: $header-font;
   }
   .h3 {
-    font-family: $header-font;
+    font-family: $header2-font;
     color: #4e5092;
 
   }
@@ -432,4 +781,82 @@ height: 370px;
 @-moz-keyframes rotate {
   from {-moz-transform:rotate(360deg);}
   to {  -moz-transform:rotate(0deg);}
+}
+
+.boxes {
+  background-color: #FFF;
+}
+
+.lead-description {
+  background-color: white;
+  color: black;
+  height: 500px;
+
+}
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.trailerbutt {
+  /* Rectangle 3: */
+/* Rectangle 3: */
+background: #FFF;
+border-color: #52e897;
+border-width: 3px;
+border-radius: 10px;
+margin-top: 15px;
+margin-bottom: 15px;
+width: 220px;
+height: 70px;
+font-family: $header2-font;
+margin-right: 10px;
+// margin-left: -10px;
+/* Watch the trailer: */
+// font-family: $headline-font;
+font-size: 1.5em;
+color: #ff6783;
+letter-spacing: 0px;
+}
+.trailerbutt:hover {
+  color: #ac83fc!important;
+}
+
+.pre-order-btn {
+  /* Rectangle 3: */
+/* Rectangle 3: */
+background: #ad7fff;
+border-color: #52e897;
+border-width: 3px;
+border-radius: 10px;
+margin-top: 15px;
+margin-bottom: 15px;
+width: 220px;
+height: 70px;
+font-family: $header2-font;
+/* Watch the trailer: */
+// font-family: $headline-font;
+font-size: 1.5em;
+color: #FFF;
+letter-spacing: 0px;
+}
+.pre-order-btn:hover {
+  color: #54f998;
+}
+.btn:hover {
+  // color: #af3c52;
 }
