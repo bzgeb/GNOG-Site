@@ -3984,6 +3984,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/images\/release\/share-imageold.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 449614,
+		"inputAbbreviatedPath": "\/public\/images\/release\/share-imageold.png",
+		"outputAbbreviatedPath": "\/public\/images\/release\/share-imageold.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/images\/release\/sub-section.png": {
 		"fileType": 32768,
 		"ignore": 0,
