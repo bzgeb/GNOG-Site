@@ -16,6 +16,28 @@ a {
   text-decoration: underline;
 }
 
+.video {
+  color: white;
+  font-family: $header-font!important;
+  height: 600px;
+
+  #background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    // background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+
+}
+
 strong {
   font-family: $header-font;
 }
@@ -147,21 +169,36 @@ strong {
 
 .header {
   img {
-    padding-top: 400px;
+    padding-top: 20px;
+    // padding-left: 10px;
   }
 p {
-  line-height: 1;
+  line-height: 1em;
   font-size: 2.5em;
-  color: #4e4e95;
+  color: #FB275E;
+}
+iframe {
+
+  border-width: 5px!important;
+  border-radius: 10px!important;
+  border-color: #FB275E!important;
+  border-style: solid!important;
 }
 
-  height: 1400px;
-  background: url('/images/release/headerimage2.png');
+  // height: 1400px;
+  // actual header bg...
+  background: url('/images/release/gnog-particles.png');
   background-position: center, center;
   background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #FFF;
   color: white;
+  .buy-buttons {
+    img {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+  }
   .ps4-preorder {
     font-size: 1.5em!important;
     font-family: $header2-font;

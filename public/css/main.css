@@ -163,6 +163,23 @@ a {
   color: #FFF;
   text-decoration: underline; }
 
+.video {
+  color: white;
+  font-family: "Bariol Big", Sans-Serif !important;
+  height: 600px; }
+  .video #background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; }
+
 strong {
   font-family: "Bariol Big", Sans-Serif; }
 
@@ -252,19 +269,26 @@ strong {
   font-size: 1em; }
 
 .header {
-  height: 1400px;
-  background: url("/images/release/headerimage2.png");
+  background: url("/images/release/gnog-particles.png");
   background-position: center, center;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #FFF;
   color: white; }
   .header img {
-    padding-top: 400px; }
+    padding-top: 20px; }
   .header p {
-    line-height: 1;
+    line-height: 1em;
     font-size: 2.5em;
-    color: #4e4e95; }
+    color: #FB275E; }
+  .header iframe {
+    border-width: 5px !important;
+    border-radius: 10px !important;
+    border-color: #FB275E !important;
+    border-style: solid !important; }
+  .header .buy-buttons img {
+    margin-right: 10px;
+    margin-left: 10px; }
   .header .ps4-preorder {
     font-size: 1.5em !important;
     font-family: "Bariol Regular", Sans-Serif; }

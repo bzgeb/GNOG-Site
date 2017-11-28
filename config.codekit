@@ -3764,6 +3764,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/public\/images\/release\/esrb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53107,
+		"inputAbbreviatedPath": "\/public\/images\/release\/esrb.png",
+		"outputAbbreviatedPath": "\/public\/images\/release\/esrb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/public\/images\/release\/gnog-box.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3878,7 +3889,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 31225,
+		"initialSize": 86445,
 		"inputAbbreviatedPath": "\/public\/images\/release\/laurels.png",
 		"outputAbbreviatedPath": "\/public\/images\/release\/laurels.png",
 		"outputPathIsOutsideProject": 0,
@@ -4532,17 +4543,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/public\/video\/roughselect.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 195514,
-		"inputAbbreviatedPath": "\/public\/video\/roughselect.png",
-		"outputAbbreviatedPath": "\/public\/video\/roughselect.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/README.md": {
 		"criticStyle": 0,
