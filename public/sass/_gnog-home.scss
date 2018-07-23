@@ -773,6 +773,9 @@ height: 370px;
 .footer {
   background-color: #16182c;
   background-image: $footer-bg-image;
+  img {
+
+  }
   // background-attachment: fixed;
   color: #F1EEDD;
   font-family: $header-font;
@@ -796,6 +799,7 @@ height: 370px;
   height: auto;
   max-width: 100%;
   vertical-align: middle;
+  margin-right: 30px;
 
 }
 }

@@ -716,7 +716,8 @@ background-repeat: no-repeat;
     display: inline-block;
     height: auto;
     max-width: 100%;
-    vertical-align: middle; }
+    vertical-align: middle;
+    margin-right: 30px; }
 
 #rotate {
   -webkit-animation-name: rotate;
